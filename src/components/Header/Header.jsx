@@ -7,7 +7,7 @@ const Header = () => {
     <header>
       <nav className="nav container">
         <a href="#" className="nav__logo">
-          MC Estudio Inmobiliario <box-icon name="home"></box-icon>
+          MC Estudio Inmobiliario <box-icon className='home' name="home"></box-icon>
         </a>
 
         <div className="nav__menu">
@@ -20,7 +20,7 @@ const Header = () => {
             </li>
 
             <li className="nav__item">
-              <a href="#" className="nav__link active-link">
+              <a href="#" className="nav__link">
                 <box-icon name='building-house'></box-icon>
                 <span>Propiedades</span>
               </a>

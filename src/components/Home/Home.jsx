@@ -1,6 +1,12 @@
 import React from "react";
 import "./home.css";
 
+import "swiper/css";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+
 const Home = () => {
   return (
     <main className="main">
@@ -8,25 +14,28 @@ const Home = () => {
         <div className="home__container container grid">
           <div className="home__data">
             <h1 className="home__title">
-              Descubre <br /> la propiedad <br /> más adecuada
+              Descubra <br />
+              la propiedad <br />
+              más adecuada
             </h1>
-
             <p className="home__description">
               Encuentre una variedad de propiedades que se adapten a usted muy
-              facilmente, olvidese de todas las dificultades para encontrar un
+              fácilmente, olvídese de todas las dificultades para encontrar un
               hogar.
             </p>
-
-            {/* <form action="" className="home__search">
-                        <box-icon className='navigation' name='navigation'></box-icon>
-                        <input type="search" placeholder='Buscar por localidad...' className="home__search-input" />
-                        <button className="button">Buscar</button>
-                    </form> */}
-
+            <form action className="home__search">
+              <i className="bx bx-navigation" />
+              <input
+                type="search"
+                placeholder="Search by location..."
+                className="home__search-input"
+              />
+              <button className="button">Buscar</button>
+            </form>
             <div className="home__value">
               <div>
                 <h2 className="home__value-number">
-                  9k <span>+</span>
+                  9K <span>+</span>
                 </h2>
                 <span className="home__value-description">
                   Producto <br />
@@ -45,33 +54,295 @@ const Home = () => {
             </div>
           </div>
           <div className="home__images">
-          <div className="home__orbe">
-                <div className="home__img">
-                  <img src="../img/homeimg.jpg" alt="" />
-                </div>
+            <div className="home__orbe">
+              <div className="home__img">
+                <img src="./assets/img/homeimg.jpg" alt="" />
               </div>
+            </div>
           </div>
         </div>
       </section>
-      
-
       <section className="popular section" id="popular">
         <div className="container">
-            <span className="section__subtitle">Mejor elección</span>
-            <h2 className="section__title">Casas Populares <span>.</span></h2>
-
-            <div className="popular__container swiper">
-                <div className="swiper-wrapper">
-                    <article className="popular__card swiper-slide">
-                        <img src="" alt="" className="popular__img" />
-                        <div className="popular__data">
-                            <h2 className="popular__price"><span>$$</span></h2>
-                            <h3 className="popular__title"></h3>
-                            <p className="popular__description"></p>
-                        </div>
-                    </article>
+          <span className="section__subtitle">Mejor elección</span>
+          <h2 className="section__title">
+            Propiedades<span>:</span>
+          </h2>
+          <div className="popular__container swiper">
+            <div className="swiper-wrapper">
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/propiedad1.jpg"
+                  alt=""
+                />
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> 62.900
+                  </h2>
+                  <h3 className="popular__title">
+                    <a
+                      target={"_blank"}
+                      href="https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--11962371"
+                    >
+                      PH en Venta en Caseros, Tres de Febrero
+                    </a>
+                  </h3>
+                  <p className="popular__description">
+                    Hermoso PH desarrollado en primer piso con acceso por
+                    escalera.
+                  </p>
                 </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
+
+              <article className="popular__card swiper-slide">
+                <img
+                  className="popular__img"
+                  src="./img/"
+                  alt=""/>
+                <div className="popular__data">
+                  <h2 className="popular__price">
+                    <span>USD</span> </h2>
+                  <h3 className="popular__title">
+                    <a target={"_blank"} href=""></a>
+                  </h3>
+                  <p className="popular__description"></p>
+                </div>
+              </article>
             </div>
+
+            <div className="swiper-button-next">
+              <i className="bx bx-chevron-right" />
+            </div>
+            <div className="swiper-button-prev">
+              <i className="bx bx-chevron-left" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="value section" id="value">
+        <div className="value__container container grid">
+          <div className="value__images">
+            <div className="value__orbe" />
+            <div className="value__img">
+              <img src="./assets/img/value.jpg" alt="" />
+            </div>
+          </div>
+          <div className="value__content">
+            <div className="value__data">
+              <span className="section__subtitle">Nuestros valores</span>
+              <h2 className="section__title">
+                Valores que brindamos<span>.</span>
+              </h2>
+              <p className="value__accordion-description">
+                Siempre estamos listos para ayudar brindandole el mejor
+                servicio. Creemos que un buen lugar para vivir puede mejorar su
+                vida.
+              </p>
+            </div>
+            <div className="value__accordion">
+              <div className="value__accordion-item">
+                <header className="value__accordion-header">
+                  <i className="bx bxs-shield-x value__accordion-icon" />
+                  <h3 className="value__accordion-title">
+                    Las mejores tasas de interés del mercado
+                  </h3>
+                  <div className="value__accordion-arrow">
+                    <i className="bx bxs-down-arrow" />
+                  </div>
+                </header>
+                <div className="value__accordion-content">
+                  <p className="value__accordion-description">
+                    El precio que ofrecemos es el mejor para usted.
+                  </p>
+                </div>
+              </div>
+              <div className="value__accordion-item">
+                <header className="value__accordion-header">
+                  <i className="bx bxs-x-square value__accordion-icon" />
+                  <h3 className="value__accordion-title">
+                    Prevenir precios inestables
+                  </h3>
+                  <div className="value__accordion-arrow">
+                    <i className="bx bxs-down-arrow" />
+                  </div>
+                </header>
+                <div className="value__accordion-content">
+                  <p className="value__accordion-description">
+                    Le garantizamos que no habra cambios sobre el precio de su
+                    propiedad debido a variaciones inesperadas que puedan
+                    surgir.
+                  </p>
+                </div>
+              </div>
+              <div className="value__accordion-item">
+                <header className="value__accordion-header">
+                  <i className="bx bxs-bar-chart-square value__accordion-icon" />
+                  <h3 className="value__accordion-title">
+                    El mejor precio del mercado
+                  </h3>
+                  <div className="value__accordion-arrow">
+                    <i className="bx bxs-down-arrow" />
+                  </div>
+                </header>
+                <div className="value__accordion-content">
+                  <p className="value__accordion-description">
+                    El precio que ofrecemos es el mejor para usted
+                  </p>
+                </div>
+              </div>
+              <div className="value__accordion-item">
+                <header className="value__accordion-header">
+                  <i className="bx bxs-check-square value__accordion-icon" />
+                  <h3 className="value__accordion-title">
+                    Seguridad de sus datos
+                  </h3>
+                  <div className="value__accordion-arrow">
+                    <i className="bx bxs-down-arrow" />
+                  </div>
+                </header>
+                <div className="value__accordion-content">
+                  <p className="value__accordion-description">
+                    La seguridad de nuestros clientes es nuestra prioridad
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="contact section" id="contact">
+        <div className="contact__container container grid">
+          <div className="contact__images">
+            <div className="contact__orbe" />
+            <div className="contact__img">
+              <img src="./assets/img/contact.png" alt="" />
+            </div>
+          </div>
+          <div className="contact__content">
+            <div className="contact__data">
+              <span className="section__subtitle">Contáctenos</span>
+              <h2 className="section__title">
+                Facil de localizarnos<span>.</span>
+                <p className="contact__description">
+                  ¿Hay algún problema para encontrar la casa de sus sueños?
+                  ¿Necesita una guía para comprar su primera casa? O necesita
+                  una consulta sobre temas residenciales.. Sólo contáctenos.
+                </p>
+              </h2>
+            </div>
+            <div className="contact__card">
+              <div className="contact__card-box">
+                <div className="contact__card-info">
+                  <i className="bx bxs-phone-call" />
+                  <div>
+                    <h3 className="contact__card-title">Llamada</h3>
+                    <p className="contact__card-description">022.321.456.12</p>
+                  </div>
+                </div>
+                <button className="button contact__card-button">
+                  Llame ahora
+                </button>
+              </div>
+              <div className="contact__card-box">
+                <div className="contact__card-info">
+                  <i className="bx bxs-message-rounded-dots" />
+                  <div>
+                    <h3 className="contact__card-title">Chat</h3>
+                    <p className="contact__card-description">022.321.456.12</p>
+                  </div>
+                </div>
+                <button className="button contact__card-button">
+                  Chatee ahora
+                </button>
+              </div>
+              <div className="contact__card-box">
+                <div className="contact__card-info">
+                  <i className="bx bxs-envelope" />
+                  <div>
+                    <h3 className="contact__card-title">Email</h3>
+                    <p className="contact__card-description">email@email.com</p>
+                  </div>
+                </div>
+                <button className="button contact__card-button">Email</button>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
