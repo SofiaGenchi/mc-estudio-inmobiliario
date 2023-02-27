@@ -108,90 +108,90 @@ const Home = () => {
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/propiedad2.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 125.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--11464974">Casa en Venta en Caseros, Tres de Febrero</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">Casa en lote propio; 10m de frente x 23,25 de fondo.</p>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/propiedad3.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 47.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--11598273">Departamento en Venta en Caseros, Tres de Febrero</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">Hermoso departamento monoambiente. Apto profesional, ubicado en P.7 con balcon de 2,66m2, excelente distribucion.</p>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/propiedad4.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 38.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097">Departamento en Venta en Caseros, Tres de Febrero</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">La unidad sera de 1 amb. con una excelente distribucion y facil division.</p>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/propiedad5.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 85.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261">PH en Venta en Santos Lugares, Tres de Febrero</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">Excelente PH al frente con cochera, 4 amb. con patio y terraza.</p>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/propiedad6.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 45.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/departamento-en-venta-en-san-clemente-del-tuyu--11434603">Departamento en Venta en San Clemente Del Tuyu, De La Costa</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">Excelente oportunidad para invertir en la costa!</p>
                 </div>
               </SwiperSlide>
 
               <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
-                  src="./img/"
+                  src="./img/cochera1.jpg"
                   alt=""/>
                 <div className="popular__data">
                   <h2 className="popular__price">
-                    <span>USD</span> </h2>
+                    <span>USD</span> 8.000</h2>
                   <h3 className="popular__title">
-                    <a target={"_blank"} href=""></a>
+                    <a target={"_blank"} href="https://www.argenprop.com/cochera-en-venta-en-caseros--11426461">Cochera en Venta en Caseros, Tres de Febrero</a>
                   </h3>
-                  <p className="popular__description"></p>
+                  <p className="popular__description">Cochera descubierta. Con porton automatizado, tu mejor opcion para invertir!</p>
                 </div>
               </SwiperSlide>
             </div>
