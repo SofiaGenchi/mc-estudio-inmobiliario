@@ -1,11 +1,14 @@
 import React from "react";
 import "./home.css";
 
-import "swiper/css";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/pagination';
+import { Navigation, Pagination } from "swiper";
+
 
 const Home = () => {
   return (
@@ -68,9 +71,16 @@ const Home = () => {
           <h2 className="section__title">
             Propiedades<span>:</span>
           </h2>
-          <div className="popular__container swiper">
+
+
+          <Swiper className="popular__container swiper"
+            modules={[Pagination, Navigation]}
+            spaceBetween={20}
+            slidesPerView={1}
+            pagination={{clickable: true}}
+          >
             <div className="swiper-wrapper">
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/propiedad1.jpg"
@@ -93,9 +103,9 @@ const Home = () => {
                     escalera.
                   </p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -108,9 +118,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -123,9 +133,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -138,9 +148,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -153,9 +163,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -168,9 +178,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
 
-              <article className="popular__card swiper-slide">
+              <SwiperSlide className="popular__card swiper-slide">
                 <img
                   className="popular__img"
                   src="./img/"
@@ -183,16 +193,9 @@ const Home = () => {
                   </h3>
                   <p className="popular__description"></p>
                 </div>
-              </article>
+              </SwiperSlide>
             </div>
-
-            <div className="swiper-button-next">
-              <i className="bx bx-chevron-right" />
-            </div>
-            <div className="swiper-button-prev">
-              <i className="bx bx-chevron-left" />
-            </div>
-          </div>
+          </Swiper>
         </div>
       </section>
       <section className="value section" id="value">

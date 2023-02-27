@@ -342,3 +342,12 @@
 .accordion-open .value__accordion-arrow box-icon {
   transform: rotate(-180deg);
 }
+
+
+
+/* Swiper------------- */
+.swiper-wrapper {
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+}
