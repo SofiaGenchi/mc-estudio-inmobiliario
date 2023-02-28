@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.css";
+import 'boxicons'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -26,7 +27,7 @@ const Home = () => {
               fácilmente, olvídese de todas las dificultades para encontrar un
               hogar.
             </p>
-            <form action className="home__search">
+            {/* <form action className="home__search">
               <box-icon name='navigation' ></box-icon>
               <input
                 type="search"
@@ -34,7 +35,7 @@ const Home = () => {
                 className="home__search-input"
               />
               <button className="button">Buscar</button>
-            </form>
+            </form> */}
             <div className="home__value">
               <div>
                 <h2 className="home__value-number">
@@ -56,13 +57,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="home__images">
+          {/* <div className="home__images">
             <div className="home__orbe">
               <div className="home__img">
                 <img src="./img/homeimg.jpg" alt="" />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className="popular section" id="popular">
