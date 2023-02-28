@@ -27,7 +27,7 @@ const Home = () => {
               hogar.
             </p>
             <form action className="home__search">
-              <i className="bx bx-navigation" />
+              <box-icon name='navigation' ></box-icon>
               <input
                 type="search"
                 placeholder="Search by location..."
@@ -59,7 +59,7 @@ const Home = () => {
           <div className="home__images">
             <div className="home__orbe">
               <div className="home__img">
-                <img src="./assets/img/homeimg.jpg" alt="" />
+                <img src="./img/homeimg.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -198,12 +198,13 @@ const Home = () => {
           </Swiper>
         </div>
       </section>
+      
       <section className="value section" id="value">
         <div className="value__container container grid">
           <div className="value__images">
             <div className="value__orbe" />
             <div className="value__img">
-              <img src="./assets/img/value.jpg" alt="" />
+              <img src="./img/value.jpg" alt="" />
             </div>
           </div>
           <div className="value__content">
@@ -218,83 +219,55 @@ const Home = () => {
                 vida.
               </p>
             </div>
+
+
             <div className="value__accordion">
               <div className="value__accordion-item">
                 <header className="value__accordion-header">
-                  <i className="bx bxs-shield-x value__accordion-icon" />
-                  <h3 className="value__accordion-title">
-                    Las mejores tasas de interés del mercado
-                  </h3>
-                  <div className="value__accordion-arrow">
-                    <i className="bx bxs-down-arrow" />
-                  </div>
+                    <box-icon type='solid' name='shield-x' classList='value__accordion-icon'></box-icon>
+                    <h3 className="value__accordion-title">Las mejores tasas de interés del mercado</h3>
                 </header>
-                <div className="value__accordion-content">
-                  <p className="value__accordion-description">
-                    El precio que ofrecemos es el mejor para usted.
-                  </p>
-                </div>
               </div>
+
+
               <div className="value__accordion-item">
                 <header className="value__accordion-header">
-                  <i className="bx bxs-x-square value__accordion-icon" />
+                <box-icon name='message-square-x' classList='value__accordion-icon'></box-icon>
                   <h3 className="value__accordion-title">
                     Prevenir precios inestables
                   </h3>
-                  <div className="value__accordion-arrow">
-                    <i className="bx bxs-down-arrow" />
-                  </div>
                 </header>
-                <div className="value__accordion-content">
-                  <p className="value__accordion-description">
-                    Le garantizamos que no habra cambios sobre el precio de su
-                    propiedad debido a variaciones inesperadas que puedan
-                    surgir.
-                  </p>
-                </div>
               </div>
+
               <div className="value__accordion-item">
                 <header className="value__accordion-header">
-                  <i className="bx bxs-bar-chart-square value__accordion-icon" />
+                <box-icon name='bar-chart-square' classList='value__accordion-icon'></box-icon>
                   <h3 className="value__accordion-title">
                     El mejor precio del mercado
                   </h3>
-                  <div className="value__accordion-arrow">
-                    <i className="bx bxs-down-arrow" />
-                  </div>
                 </header>
-                <div className="value__accordion-content">
-                  <p className="value__accordion-description">
-                    El precio que ofrecemos es el mejor para usted
-                  </p>
-                </div>
               </div>
+
+
               <div className="value__accordion-item">
                 <header className="value__accordion-header">
-                  <i className="bx bxs-check-square value__accordion-icon" />
+                <box-icon type='solid' name='check-square' classList='value__accordion-icon'></box-icon>
                   <h3 className="value__accordion-title">
                     Seguridad de sus datos
                   </h3>
-                  <div className="value__accordion-arrow">
-                    <i className="bx bxs-down-arrow" />
-                  </div>
                 </header>
-                <div className="value__accordion-content">
-                  <p className="value__accordion-description">
-                    La seguridad de nuestros clientes es nuestra prioridad
-                  </p>
-                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <section className="contact section" id="contact">
         <div className="contact__container container grid">
           <div className="contact__images">
             <div className="contact__orbe" />
             <div className="contact__img">
-              <img src="./assets/img/contact.png" alt="" />
+              <img src="./img/contact.jpg" alt="" />
             </div>
           </div>
           <div className="contact__content">
@@ -312,7 +285,7 @@ const Home = () => {
             <div className="contact__card">
               <div className="contact__card-box">
                 <div className="contact__card-info">
-                  <i className="bx bxs-phone-call" />
+                <box-icon name='phone-call'></box-icon>
                   <div>
                     <h3 className="contact__card-title">Llamada</h3>
                     <p className="contact__card-description">022.321.456.12</p>
@@ -324,7 +297,7 @@ const Home = () => {
               </div>
               <div className="contact__card-box">
                 <div className="contact__card-info">
-                  <i className="bx bxs-message-rounded-dots" />
+                <box-icon name='message-rounded-dots'></box-icon>
                   <div>
                     <h3 className="contact__card-title">Chat</h3>
                     <p className="contact__card-description">022.321.456.12</p>
@@ -336,7 +309,7 @@ const Home = () => {
               </div>
               <div className="contact__card-box">
                 <div className="contact__card-info">
-                  <i className="bx bxs-envelope" />
+                <box-icon name='envelope'></box-icon>
                   <div>
                     <h3 className="contact__card-title">Email</h3>
                     <p className="contact__card-description">email@email.com</p>
