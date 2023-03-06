@@ -3,6 +3,7 @@ import './header.css'
 import 'boxicons'
 
 const Header = () => {
+    
   return (
     <header className="header" id="header">
         <nav className="nav container">
