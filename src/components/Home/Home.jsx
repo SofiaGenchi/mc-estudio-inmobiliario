@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../Header/Header'
+import Propiedades from '../Propiedades/Propiedades'
 import './home.css'
 
 const Home = () => {
@@ -50,7 +51,7 @@ const Home = () => {
           </div>
         </section>
 
-
+        <Propiedades />
 
       </main>
     </div>
