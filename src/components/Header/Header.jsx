@@ -36,7 +36,7 @@ const Header = () => {
                     </li>
 
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#contact" className="nav__link">
                             <box-icon name='phone'></box-icon>
                             <span>Contacto</span>
                         </a>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Contact from '../Contacto/Contact'
+import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Propiedades from '../Propiedades/Propiedades'
 import Value from '../Value/Value'
@@ -57,6 +58,8 @@ const Home = () => {
         <Value />
         <Contact />
       </main>
+
+      <Footer />
     </div>
   )
 }
