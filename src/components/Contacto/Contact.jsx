@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './contact.css'
 
+import ScrollReveal from 'scrollreveal';
+
 const Contact = () => {
     const [buttonText, setButtonText] = useState('Email');
 
@@ -14,6 +16,19 @@ const Contact = () => {
             setTimeout(() => setButtonText('Email'), 1000);
         })
     };
+
+
+
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+        reset: true
+      })
+ 
+      sr.reveal(`.contact__content`, {origin: 'left'})
+      sr.reveal(`.contact__images`, {origin: 'right'})
   return (
     <section className="contact section" id="contact">
         <div className="contact__container container grid">

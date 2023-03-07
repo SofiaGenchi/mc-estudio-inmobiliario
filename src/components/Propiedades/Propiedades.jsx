@@ -11,9 +11,19 @@ import './propiedades.css';
 import "swiper/css";
 import "swiper/css/navigation";
 
+import ScrollReveal from 'scrollreveal';
 
 
 function Propiedades() {
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+        reset: true
+      })
+      
+      sr.reveal(`.popular__container`)
 
   return (
     <section className="popular section" id="propiedades">

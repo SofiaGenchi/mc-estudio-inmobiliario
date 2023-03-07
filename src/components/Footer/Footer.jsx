@@ -1,7 +1,18 @@
 import React from 'react'
 import './footer.css'
 
+import ScrollReveal from 'scrollreveal'
+
 const Footer = () => {
+    const sr = ScrollReveal({
+        origin: 'top',
+        distance: '60px',
+        duration: 2500,
+        delay: 400,
+        reset: true
+      })
+      
+      sr.reveal(`.footer__info`, {delay: 200})
   return (
     <footer className="footer section">
         <div className="footer__container container grid">

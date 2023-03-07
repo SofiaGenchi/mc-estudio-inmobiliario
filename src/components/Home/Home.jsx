@@ -6,7 +6,21 @@ import Propiedades from '../Propiedades/Propiedades'
 import Value from '../Value/Value'
 import './home.css'
 
+import ScrollReveal from 'scrollreveal'
+
 const Home = () => {
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true
+  })
+  
+  sr.reveal(`.home__title`)
+  sr.reveal(`.home__description`, {delay: 500})
+  sr.reveal(`.home__value`, {delay: 700})
+  sr.reveal(`.home__images`, {delay: 800, origin: 'botton'})
   return (
     
     <div>

@@ -2,7 +2,19 @@ import React from "react";
 import "boxicons";
 import "./value.css";
 
+import ScrollReveal from "scrollreveal";
+
 const Value = () => {
+  const sr = ScrollReveal({
+    origin: 'top',
+    distance: '60px',
+    duration: 2500,
+    delay: 400,
+    reset: true
+  })
+
+  sr.reveal(`.value__images`, {origin: 'left'})
+  sr.reveal(`.value__content`, {origin: 'right'})
   
   return (
     <section className="value section" id="value">
