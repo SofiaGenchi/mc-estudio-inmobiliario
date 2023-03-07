@@ -90,7 +90,7 @@
     border-radius: 50%;
   }
 
-  .nav__link i {
+  .nav__link box-icon {
     font-size: 1.25rem;
   }
 
@@ -98,6 +98,7 @@
     display: none;
   }
 }
+
 
 /* modo noche */
 /* body.dark-theme{

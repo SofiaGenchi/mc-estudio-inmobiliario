@@ -1,4 +1,5 @@
 import React from 'react'
+import Contact from '../Contacto/Contact'
 import Header from '../Header/Header'
 import Propiedades from '../Propiedades/Propiedades'
 import Value from '../Value/Value'
@@ -53,8 +54,8 @@ const Home = () => {
         </section>
 
         <Propiedades />
-
         <Value />
+        <Contact />
       </main>
     </div>
   )

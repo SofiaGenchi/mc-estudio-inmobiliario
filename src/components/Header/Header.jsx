@@ -15,21 +15,21 @@ const Header = () => {
                 <ul className="nav__list">
 
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
-                            <box-icon name='home-alt-2' type='solid' ></box-icon>
+                        <a href="#home" className="nav__link">
+                            <box-icon name='home'></box-icon>
                             <span>Inico</span>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#propiedades" className="nav__link">
                             <box-icon type='solid' name='buildings'></box-icon>
                             <span>Propiedades</span>
                         </a>
                     </li>
 
                     <li className="nav__item">
-                        <a href="#" className="nav__link">
+                        <a href="#value" className="nav__link">
                             <box-icon name='award'></box-icon>
                             <span>Valoración</span>
                         </a>

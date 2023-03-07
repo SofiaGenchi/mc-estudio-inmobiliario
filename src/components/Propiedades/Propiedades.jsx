@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 function Propiedades() {
 
   return (
-    <section className="popular section" id="popular">
+    <section className="popular section" id="propiedades">
         <div className="container">
             <span className="section__subtitle">Mejor elección</span>
             <h2 className='section__title'>Nuestras Propiedades <span>.</span></h2>
