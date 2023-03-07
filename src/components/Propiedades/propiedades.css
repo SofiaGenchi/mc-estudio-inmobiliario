@@ -36,6 +36,8 @@
 
 .section {
   padding: 4.5rem 0 2rem;
+  margin-top: 5px;
+  justify-content: center;
 }
 
 .section--subtitle {

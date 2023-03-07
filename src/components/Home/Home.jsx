@@ -18,9 +18,9 @@ const Home = () => {
   })
   
   sr.reveal(`.home__title`)
-  sr.reveal(`.home__description`, {delay: 500})
-  sr.reveal(`.home__value`, {delay: 700})
-  sr.reveal(`.home__images`, {delay: 800, origin: 'botton'})
+  sr.reveal(`.home__description`, {delay: 200})
+  sr.reveal(`.home__value`, {delay: 400})
+  sr.reveal(`.home__images`, {delay: 600, origin: 'botton'})
   return (
     
     <div>
