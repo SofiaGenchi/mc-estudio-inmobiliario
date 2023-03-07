@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from '../Header/Header'
 import Propiedades from '../Propiedades/Propiedades'
+import Value from '../Value/Value'
 import './home.css'
 
 const Home = () => {
@@ -53,6 +54,7 @@ const Home = () => {
 
         <Propiedades />
 
+        <Value />
       </main>
     </div>
   )
