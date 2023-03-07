@@ -1,3 +1,33 @@
+:root {
+  --header-height: 3.4rem;
+  --first-color: #9E81A6;
+  --first-color-alt: #5A3F68;
+  --first-color-light: #D9C5D4;
+  --first-color-lighten: hsl(228, 100%, 97%);
+  --second-color: #9FBFB9;
+  --title-color: #5A3F68;
+  --text-color: hsl(228, 15%, 50%);
+  --text-color-light: #D9C5D4;
+  --border-color: hsl(228, 99%, 98%);
+  --body-color: #fff;
+  --container-color: #fff;
+
+  --body-font: sans-serif;
+  --biggest-font-size: 2.25rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+
 .container {
   max-width: 1024px;
   margin-left: 1.5rem;
@@ -51,6 +81,13 @@
   margin-bottom: 0.75rem;
 }
 
+.nombre-propiedad:webkit-any-link {
+  color: var(--second-color);
+}
+a.nombre-propiedad{
+  color: var(--first-color-alt);
+}
+
 .popular__description {
   font-size: var(--small-font-size);
 }
@@ -59,17 +96,23 @@
   box-shadow: 0 12px 16px hsla(228, 66%, 45%, 0.1);
 }
 
+.next-prev {
+  display: flex;
+  justify-content: center;
+}
+
 .swiper-button-prev::after,
 .swiper-button-next::after {
   content: "";
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-next,
+.swiper-prev {
   top: initial;
   bottom: 0;
   width: initial;
   height: initial;
+  margin-right: 1rem;
   background-color: var(--container-color);
   border: 2px solid var(--text-color-light);
   padding: 6px;
@@ -78,14 +121,10 @@
   color: var(--first-color);
 }
 
-.swiper-button-prev {
+.swiper-prev {
   left: calc(50% - 3rem);
 }
 
-.swiper-button-next {
+.swiper-next {
   right: calc(50% - 3rem);
-}
-
-.swiper-wrapper {
-  justify-content: center;
 }

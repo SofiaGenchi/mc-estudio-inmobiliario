@@ -23,7 +23,7 @@ function Propiedades() {
             
             <Swiper className="popular__container swiper"
                 modules={[Pagination, Navigation]}
-                spaceBetween={20}
+                spaceBetween={22}
                 pagination={{clickable: true}}
                 loop={true}
                 breakpoints={{
@@ -33,6 +33,10 @@ function Propiedades() {
                     320: {
                         slidesPerView: 1
                     }
+                }}
+                navigation={{
+                    prevEl: '.prev',
+                    nextEl: '.next',
                 }}
             >
                 {data.propiedades.map((propiedad, index) => (
@@ -45,7 +49,7 @@ function Propiedades() {
                                 <span>USD</span> {propiedad.precio}
                             </h2>
                             <h3 className="popular__title">
-                                <a href="http://" target="_blank" rel="noopener noreferrer">
+                                <a className='nombre-propiedad' href={propiedad.link} target="_blank" rel="noopener noreferrer">
                                     {propiedad.nombre}
                                 </a>
                             </h3>
@@ -55,7 +59,12 @@ function Propiedades() {
                         </div>
                     </SwiperSlide>
                     </div>
-                ))};
+                ))}
+                <div className='next-prev'>
+                    <div className="prev swiper-prev"><box-icon name='chevron-left' className=""></box-icon></div>
+                    <div className="next swiper-next"><box-icon name='chevron-right' className=""></box-icon></div>
+                </div>
+                
             </Swiper>
         </div>
     </section>
