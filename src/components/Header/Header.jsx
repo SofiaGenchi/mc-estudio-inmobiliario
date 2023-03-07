@@ -16,7 +16,7 @@ const Header = () => {
 
                     <li className="nav__item">
                         <a href="#home" className="nav__link">
-                            <box-icon name='home'></box-icon>
+                            <box-icon name='home-alt-2' type='solid' ></box-icon>
                             <span>Inico</span>
                         </a>
                     </li>

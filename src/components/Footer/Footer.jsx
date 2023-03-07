@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer section">
         <div className="footer__container container grid">
-            <a href="#" className="footer__logo">
+            <a href="#home" className="footer__logo">
                 MC <box-icon name='home-alt'></box-icon>
             </a>
             <p>Nuestra visión es hacer de todas las personas el mejor lugar para vivir para ellas.</p>
