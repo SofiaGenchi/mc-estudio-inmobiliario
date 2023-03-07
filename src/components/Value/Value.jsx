@@ -46,16 +46,7 @@ const Value = () => {
                 <h3 className="value__accordion-title">
                   Las mejores tasas de interés del mercado
                 </h3>
-                <div className="value__accordion-arrow">
-                  {/* <box-icon name="down-arrow" type="solid"></box-icon> */}
-                </div>
               </header>
-
-              {/* <div className="value__accordion-content">
-                <p className="value__accordion-description">
-                  El precio que ofrecemos es el mejor para usted.
-                </p>
-              </div> */}
             </div>
 
             <div className="value__accordion-item">
@@ -64,17 +55,7 @@ const Value = () => {
                 <h3 className="value__accordion-title">
                   Prevenir precios inestables
                 </h3>
-                <div className="value__accordion-arrow">
-                  {/* <box-icon name="down-arrow" type="solid"></box-icon> */}
-                </div>
               </header>
-
-              {/* <div className="value__accordion-content">
-                <p className="value__accordion-description">
-                  Le garantizamos que no habra cambios sobre el precio de su
-                  propiedad debido a variaciones inesperadas que puedan surgir.
-                </p>
-              </div> */}
             </div>
 
             <div className="value__accordion-item">
@@ -83,16 +64,7 @@ const Value = () => {
                 <h3 className="value__accordion-title">
                   El mejor precio del mercado
                 </h3>
-                <div className="value__accordion-arrow">
-                  {/* <box-icon name="down-arrow" type="solid"></box-icon> */}
-                </div>
               </header>
-
-              {/* <div className="value__accordion-content">
-                <p className="value__accordion-description">
-                  El precio que ofrecemos es el mejor para usted
-                </p>
-              </div> */}
             </div>
 
             <div className="value__accordion-item">
@@ -101,16 +73,7 @@ const Value = () => {
                 <h3 className="value__accordion-title">
                   Seguridad de sus datos
                 </h3>
-                <div className="value__accordion-arrow">
-                  {/* <box-icon name="down-arrow" type="solid"></box-icon> */}
-                </div>
               </header>
-
-              {/* <div className="value__accordion-content">
-                <p className="value__accordion-description">
-                  La seguridad de nuestros clientes es nuestra prioridad.
-                </p>
-              </div> */}
             </div>
           </div>
         </div>
