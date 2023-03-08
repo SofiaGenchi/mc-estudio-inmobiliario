@@ -39,7 +39,7 @@
 }
 
 .nav {
-  height: var(--header-height);
+  /* height: var(--header-height); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -178,5 +178,11 @@
 
   .scroll-header .active-link {
     color: var(--first-color);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .nav {
+    height: var(--header-height);
   }
 }

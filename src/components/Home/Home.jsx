@@ -3,7 +3,7 @@ import Contact from '../Contacto/Contact'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Propiedades from '../Propiedades/Propiedades'
-import Value from '../Value/Value'
+// import Value from '../Value/Value'
 import './home.css'
 
 import ScrollReveal from 'scrollreveal'
@@ -69,7 +69,7 @@ const Home = () => {
         </section>
 
         <Propiedades />
-        <Value />
+        {/* <Value /> */}
         <Contact />
       </main>
 

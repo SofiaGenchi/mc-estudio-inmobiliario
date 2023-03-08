@@ -23,7 +23,7 @@ const Value = () => {
           <div className="value__orbe"></div>
 
           <div className="value__img">
-            <img src="../img/value.jpg" alt="" />
+            <img src="../img/value2.png" alt="" />
           </div>
         </div>
 

@@ -1,20 +1,20 @@
 import React, { useState } from 'react'
 import './contact.css'
 
-import ScrollReveal from 'scrollreveal';
+// import ScrollReveal from 'scrollreveal';
 
 const Contact = () => {
 
-    const sr = ScrollReveal({
-        origin: 'top',
-        distance: '60px',
-        duration: 2500,
-        delay: 400,
-        reset: true
-      })
+    // const sr = ScrollReveal({
+    //     origin: 'top',
+    //     distance: '60px',
+    //     duration: 2500,
+    //     delay: 400,
+    //     reset: true
+    //   })
  
-      sr.reveal(`.contact__container`, {origin: 'left'})
-    //   sr.reveal(`.contact__images`, {origin: 'right'})
+    //   sr.reveal(`.contact__container`, {origin: 'left'})
+    // //   sr.reveal(`.contact__images`, {origin: 'right'})
 
 
 
@@ -34,10 +34,10 @@ const Contact = () => {
     <section className="contact section" id="contact">
         <div className="contact__container container grid">
             <div className="contact__images">
-                <div className="contact__orbe"></div>
+                {/* <div className="contact__orbe"></div> */}
 
                 <div className="contact__img">
-                    <img src="../img/contact.jpg" alt="" />
+                    <img src="../img/contact2.png" alt="" />
                 </div>
             </div>
 
