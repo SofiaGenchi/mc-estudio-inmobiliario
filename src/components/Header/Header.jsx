@@ -43,8 +43,6 @@ const Header = () => {
                     </li>
                 </ul>
             </div>
-
-            <box-icon className='change-theme' id='theme-toggle' name='moon'></box-icon>
         </nav>
     </header>
   )
