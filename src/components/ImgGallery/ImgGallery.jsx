@@ -13,7 +13,7 @@ import { EffectCube, Pagination, EffectCreative } from "swiper";
 function ImgGallery() {
   return (
     <>
-      <div className="hdr">
+      <div className="hdr" id="info">
         <h2>Más Información:</h2>
         <p></p>
       </div>

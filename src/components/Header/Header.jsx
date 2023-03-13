@@ -28,12 +28,12 @@ const Header = () => {
                         </a>
                     </li>
 
-                    {/* <li className="nav__item">
-                        <a href="#value" className="nav__link">
-                            <box-icon name='award'></box-icon>
-                            <span>Valoración</span>
+                    <li className="nav__item">
+                        <a href="#info" className="nav__link">
+                            <box-icon name='news'></box-icon>
+                            <span>Información</span>
                         </a>
-                    </li> */}
+                    </li>
 
                     <li className="nav__item">
                         <a href="#contact" className="nav__link">
