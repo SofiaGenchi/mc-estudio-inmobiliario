@@ -1,6 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination } from 'swiper';
+import { Navigation } from 'swiper';
 import data from './data.json';
 import 'boxicons';
 
@@ -32,9 +32,9 @@ function Propiedades() {
             <h2 className='section__title'>Nuestras Propiedades <span>.</span></h2>
             
             <Swiper className="popular__container swiper"
-                modules={[Pagination, Navigation]}
+                modules={[Navigation]}
                 spaceBetween={22}
-                pagination={{clickable: true}}
+                // pagination={{clickable: true}}
                 loop={true}
                 breakpoints={{
                     534: {
