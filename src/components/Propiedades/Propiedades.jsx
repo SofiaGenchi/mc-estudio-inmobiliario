@@ -52,8 +52,10 @@ function Propiedades() {
                 {data.propiedades.map((propiedad, index) => (
                     <div className="swiper-wrapper" key={index}>
                     <SwiperSlide className='popular__card swiper-slide'>
-                        <img src={propiedad.imagen} alt={propiedad.nombre} className="popular__img" />
+                            <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
+                                <img src={propiedad.imagen} alt={propiedad.nombre} className="popular__img" />
 
+                            </a>
                         <div className="popular__data">
                             <h2 className="popular__price">
                                 <span>USD</span> {propiedad.precio}
