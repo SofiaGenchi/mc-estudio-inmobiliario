@@ -7,6 +7,7 @@ import Propiedades from '../Propiedades/Propiedades'
 import './home.css'
 
 import ScrollReveal from 'scrollreveal'
+import ImgGallery from '../ImgGallery/ImgGallery'
 
 const Home = () => {
   const sr = ScrollReveal({
@@ -70,6 +71,7 @@ const Home = () => {
 
         <Propiedades />
         {/* <Value /> */}
+        <ImgGallery />
         <Contact />
       </main>
 
