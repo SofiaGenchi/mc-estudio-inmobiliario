@@ -15,7 +15,6 @@ function ImgGallery() {
     <>
       <div className="hdr" id="info">
         <h2>Más Información:</h2>
-        <p></p>
       </div>
       <div className="row">
         <div className="column">

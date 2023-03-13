@@ -59,13 +59,13 @@ const Home = () => {
               </div>
             </div>
 
-            <div className="home__images">
+            {/* <div className="home__images">
               <div className="home__orbe">
                 <div className="home__img">
                   <img src="./img/homeimg.jpg" alt="" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </section>
 
