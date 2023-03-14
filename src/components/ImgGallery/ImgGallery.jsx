@@ -18,8 +18,8 @@ function ImgGallery() {
       </div>
       <div className="row">
         <div className="column">
-          <img src="../img/info1.jpg" alt="" />
-          <img src="../img/info3.jpg" alt="" />
+          <img src="../img/info/info1.jpg" alt="Beneficios de invertir en un emprendimiento en pozo" />
+          <img src="../img/info/info3.jpg" alt="Qué es el seguro de caucion" />
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -34,25 +34,25 @@ function ImgGallery() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="../img/orientacion.jpg" />
+              <img src="../img/info/orientacion.jpg" alt="Como elegir la orientacion de un departamento"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/o-norte.jpg" />
+              <img src="../img/info/o-norte.jpg" alt="orientacion norte"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/o-sur.jpg" />
+              <img src="../img/info/o-sur.jpg" alt="orientacion sur"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/o-oeste.jpg" />
+              <img src="../img/info/o-oeste.jpg" alt="orientacion oeste"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/o-este.jpg" />
+              <img src="../img/info/o-este.jpg" alt="orientacion este"/>
             </SwiperSlide>
           </Swiper>
         </div>
         <div className="column">
-          <img src="../img/info2.jpg" alt="" />
-          <img src="../img/info4.jpg" alt="" />
+          <img src="../img/info/info2.jpg" alt="Mudarte a un nuevo barrio" />
+          <img src="../img/info/info4.jpg" alt="Alquileres y depositos" />
           <Swiper
             effect={"cube"}
             grabCursor={true}
@@ -67,13 +67,13 @@ function ImgGallery() {
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src="../img/arreglos.jpg" />
+              <img src="../img/info/arreglos.jpg"alt="quien paga los arreglos"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/arreglos-1.jpg" />
+              <img src="../img/info/arreglos-1.jpg" alt="arreglos"/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/arreglos-2.jpg" />
+              <img src="../img/info/arreglos-2.jpg" alt="arreglos"/>
             </SwiperSlide>
           </Swiper>
         </div>
@@ -95,19 +95,19 @@ function ImgGallery() {
             className="mySwiper2"
           >
             <SwiperSlide>
-              <a href="https://www.instagram.com/p/CX_i98yM3rY/" target="_blank" rel="noopener noreferrer"><img src="../img/emprendimiento.jpg" alt="" /></a>
+              <a href="https://www.instagram.com/p/CX_i98yM3rY/" target="_blank" rel="noopener noreferrer"><img src="../img/info/emprendimiento.jpg" alt="emprendimiento en pozo" /></a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/emprendimiento-1.jpg" alt="" />
+              <img src="../img/info/emprendimiento-1.jpg" alt="emprendimiento en pozo" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/emprendimiento-2.jpg" alt="" />
+              <img src="../img/info/emprendimiento-2.jpg" alt="emprendimiento en pozo" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/emprendimiento-3.jpg" alt="" />
+              <img src="../img/info/emprendimiento-3.jpg" alt="emprendimiento en pozo" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/emprendimiento-4.jpg" alt="" />
+              <img src="../img/info/emprendimiento-4.jpg" alt="emprendimiento en pozo" />
             </SwiperSlide>
           </Swiper>
 
@@ -128,13 +128,13 @@ function ImgGallery() {
             className="mySwiper2"
           >
             <SwiperSlide>
-              <a href="https://www.instagram.com/p/CPGV9k_NEXC/" target="_blank" rel="noopener noreferrer"><img src="../img/cocheras.jpg" alt="" /></a>
+              <a href="https://www.instagram.com/p/CPGV9k_NEXC/" target="_blank" rel="noopener noreferrer"><img src="../img/info/cocheras.jpg" alt="venta de cocheras" /></a>
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/cocheras-1.jpg" alt="" />
+              <img src="../img/info/cocheras-1.jpg" alt="venta de cocheras" />
             </SwiperSlide>
             <SwiperSlide>
-              <img src="../img/cocheras-2.jpg" alt="" />
+              <img src="../img/info/cocheras-2.jpg" alt="venta de cocheras" />
             </SwiperSlide>
           </Swiper>
 
@@ -155,17 +155,17 @@ function ImgGallery() {
             className="mySwiper2"
           >
             <SwiperSlide>
-              <a href="https://www.instagram.com/p/CeLyS5dLPZd/" target="_blank" rel="noopener noreferrer"><img src="../img/venta.jpg" alt="" /></a>
+              <a href="https://www.instagram.com/p/CeLyS5dLPZd/" target="_blank" rel="noopener noreferrer"><img src="../img/info/venta.jpg" alt="venta departamento a estrenar" /></a>
             </SwiperSlide>
             <SwiperSlide>
               <a href="https://www.instagram.com/p/Cd5652yrpAM/" target="_blank" rel="noopener noreferrer">
-              <img src="../img/venta-2.jpg" alt="" />
+              <img src="../img/info/venta-2.jpg" alt="venta departamento caseros centro" />
 
               </a>
             </SwiperSlide>
             <SwiperSlide>
                 <a href="https://www.instagram.com/p/CdVrUkAAkTJ/" target="_blank" rel="noopener noreferrer">
-              <img src="../img/venta-3.jpg" alt="" />
+              <img src="../img/info/venta-3.jpg" alt="caseros venta casa 3 ambientes" />
 
                 </a>
             </SwiperSlide>
