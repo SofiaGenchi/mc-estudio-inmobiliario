@@ -143,13 +143,11 @@ button {
     width: 236px;
     height: 280px;
   }
-
-  .subscribe__container {
-    padding: 2rem 1rem;
-  }
-
   .footer__content {
     gap: 2.5rem;
+  }
+  #home {
+    height: 0%;
   }
 }
 
@@ -165,6 +163,9 @@ button {
 
   .footer__content {
     grid-template-columns: repeat(3, max-content);
+  }
+  #home {
+    height: 0%;
   }
 }
 
@@ -213,6 +214,9 @@ button {
     background-image: url("../public/img/contact2.png");
     background-repeat: no-repeat;
     background-position: center;
+  }
+  #home {
+    height: 0%;
   }
 }
 
