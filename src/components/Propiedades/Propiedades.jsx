@@ -53,7 +53,7 @@ function Propiedades() {
                     <div className="swiper-wrapper" key={index}>
                     <SwiperSlide className='popular__card swiper-slide'>
                             <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
-                                <img src={propiedad.imagen} alt={propiedad.nombre} className="popular__img" />
+                                <img src={propiedad.imagen} alt={propiedad.descripcion} className="popular__img" />
 
                             </a>
                         <div className="popular__data">
