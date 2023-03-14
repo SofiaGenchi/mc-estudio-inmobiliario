@@ -52,6 +52,18 @@
   /* justify-content: center; */
 }
 
+@media screen and (max-width: 425px){
+  .home__description {
+    display: none;
+  }
+  .home__value span, .home__value-number {
+    display: none;
+  }
+  .home {
+    height: min-content;
+  }
+}
+
 .home__container {
   row-gap: 3rem;
 }

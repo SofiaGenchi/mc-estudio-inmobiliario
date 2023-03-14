@@ -1,32 +1,31 @@
-import React from 'react'
-import Contact from '../Contacto/Contact'
-import Footer from '../Footer/Footer'
-import Header from '../Header/Header'
-import Propiedades from '../Propiedades/Propiedades'
+import React from "react";
+import Contact from "../Contacto/Contact";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Propiedades from "../Propiedades/Propiedades";
 // import Value from '../Value/Value'
-import './home.css'
+import "./home.css";
 
-import ScrollReveal from 'scrollreveal'
-import ImgGallery from '../ImgGallery/ImgGallery'
+import ScrollReveal from "scrollreveal";
+import ImgGallery from "../ImgGallery/ImgGallery";
 
 const Home = () => {
   const sr = ScrollReveal({
-    origin: 'top',
-    distance: '60px',
+    origin: "top",
+    distance: "60px",
     duration: 2500,
     delay: 400,
-    reset: true
-  })
-  
-  sr.reveal(`.home__title`)
-  sr.reveal(`.home__description`, {delay: 200})
-  sr.reveal(`.home__value`, {delay: 400})
-  sr.reveal(`.home__images`, {delay: 600, origin: 'botton'})
+    reset: true,
+  });
+
+  sr.reveal(`.home__title`);
+  sr.reveal(`.home__description`, { delay: 200 });
+  sr.reveal(`.home__value`, { delay: 400 });
+  sr.reveal(`.home__images`, { delay: 600, origin: "botton" });
   return (
-    
     <div>
-      <Header/>
-      
+      <Header />
+
       <main className="main">
         <section className="home section" id="home">
           <div className="home__container container grid">
@@ -37,12 +36,16 @@ const Home = () => {
                 Inmobiliario
               </h1>
               <p className="home__description">
-              Encuentre una variedad de propiedades que se adapten a usted muy fácilmente, olvídese de todas las dificultades para encontrar un hogar.
+                Encuentre una variedad de propiedades que se adapten a usted muy
+                fácilmente, olvídese de todas las dificultades para encontrar un
+                hogar.
               </p>
 
               <div className="home__value">
                 <div>
-                  <h2 className="home__value-number">9K <span>+</span></h2>
+                  <h2 className="home__value-number">
+                    9K <span>+</span>
+                  </h2>
                   <span className="home__value-description">
                     Producto <br />
                     Premium
@@ -50,8 +53,10 @@ const Home = () => {
                 </div>
 
                 <div>
-                  <h2 className="home__value-number">2K <span>+</span></h2>
-                  <span className='home__value-description'>
+                  <h2 className="home__value-number">
+                    2K <span>+</span>
+                  </h2>
+                  <span className="home__value-description">
                     Cliente <br />
                     Feliz
                   </span>
@@ -60,12 +65,12 @@ const Home = () => {
             </div>
 
             {/* <div className="home__images none">
-                  <div className="home__orbe">
-                    <div className="home__img">
-                      <img src="./img/homeimg.jpg" alt="" />
-                    </div>
-                  </div>
-                </div> */}
+              <div className="home__orbe">
+                <div className="home__img">
+                  <img src="./img/home.jpg" alt="" />
+                </div>
+              </div>
+            </div> */}
           </div>
         </section>
 
@@ -77,7 +82,7 @@ const Home = () => {
 
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
