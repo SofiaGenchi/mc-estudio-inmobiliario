@@ -3,7 +3,6 @@ import Contact from "../Contacto/Contact";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Propiedades from "../Propiedades/Propiedades";
-// import Value from '../Value/Value'
 import "./home.css";
 
 import ScrollReveal from "scrollreveal";
@@ -11,7 +10,7 @@ import ImgGallery from "../ImgGallery/ImgGallery";
 
 const Home = () => {
   const sr = ScrollReveal({
-    origin: "top",
+    origin: "left",
     distance: "60px",
     duration: 2500,
     delay: 400,
@@ -22,6 +21,7 @@ const Home = () => {
   sr.reveal(`.home__description`, { delay: 200 });
   sr.reveal(`.home__value`, { delay: 400 });
   sr.reveal(`.home__images`, { delay: 600, origin: "botton" });
+  sr.reveal(`.home`);
   return (
     <div>
       <Header />
@@ -63,23 +63,12 @@ const Home = () => {
                 </div>
               </div>
             </div>
-
-            {/* <div className="home__images none">
-              <div className="home__orbe">
-                <div className="home__img">
-                  <img src="./img/home.jpg" alt="" />
-                </div>
-              </div>
-            </div> */}
           </div>
         </section>
-
         <Propiedades />
-        {/* <Value /> */}
         <ImgGallery />
         <Contact />
       </main>
-
       <Footer />
     </div>
   );
