@@ -27,6 +27,20 @@
   --z-tooltip: 10;
   --z-fixed: 100;
 }
+/* link  activo */
+.nav__item.active .nav__link {
+  color: var(--first-color-alt); /* Cambia el color del texto al azul */
+}
+
+.nav__item.active box-icon {
+  /* color: var(--first-color); Cambia el color del ícono al azul */
+  transform: scale(1.2); /* Hace el ícono un poco más grande */
+  border: var(--first-color) 2px solid;
+  border-radius: 50%;
+  background-color: #9e81a6;
+}
+
+
 
 .header {
   position: fixed;
