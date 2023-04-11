@@ -9,7 +9,8 @@ const Header = () => {
     <header className="header" id="header">
       <nav className="nav container">
         <a href="#" className="nav__logo">
-          MC <box-icon type="solid" name="home"></box-icon>
+          {/* MC <box-icon type="solid" name="home"></box-icon> */}
+          <img src="../favicon-32x32.png" alt="" />
         </a>
 
         <div className="nav__menu">
