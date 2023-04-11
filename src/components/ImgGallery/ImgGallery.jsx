@@ -8,9 +8,22 @@ import "swiper/css";
 import "swiper/css/effect-cube";
 import "swiper/css/pagination";
 
+import ScrollReveal from "scrollreveal";
+
 // import required modules
 import { EffectCube, Pagination, EffectCreative } from "swiper";
 function ImgGallery() {
+
+
+  const sr = ScrollReveal({
+    origin: "left",
+    distance: "60px",
+    duration: 2500,
+    delay: 400,
+    reset: true,
+  });
+
+  sr.reveal(`.row`, { delay: 600, origin: "left" });
   return (
     <>
       <div className="hdr" id="info">

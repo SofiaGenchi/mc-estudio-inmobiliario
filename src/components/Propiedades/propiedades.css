@@ -28,6 +28,38 @@
   --z-fixed: 100;
 }
 
+/* opcion de filtrado */
+.botones-propiedades {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.boton-estado {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  color: var(--first-color-alt);
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 8px 15px;
+  transition: all 0.3s ease;
+}
+
+.boton-estado:hover {
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.seleccionado {
+  background-color: #333;
+  color: #fff;
+}
+
+
 .container {
   max-width: 1024px;
   margin-left: 1.5rem;

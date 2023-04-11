@@ -5,63 +5,96 @@
       "precio": "62.900",
       "descripcion": "Hermoso Ph en Venta en Caseros, Tres de Febrero. Desarrollado en primer piso con acceso por escalera.",
       "imagen": "../img/propiedades/propiedad1.jpg",
-      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--11962371"
+      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--11962371",
+      "estado": "venta"
     },
     {
       "nombre": "Bonifacini al 5500",
       "precio": "124.900",
       "descripcion": "Casa en Venta en Caseros, Tres de Febrero. Construida en una planta, se ingresa por hall de entrada que distribuye a los dormitorios y hacia el amplio comedor.",
       "imagen": "../img/propiedades/propiedad2.jpg",
-      "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--12596301"
+      "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--12596301",
+      "estado": "venta"
     },
     {
       "nombre": "Hornos al 2700",
       "precio": "47.000",
       "descripcion": "Departamento en Venta en Caseros, Tres de Febrero. Monoambiente, apto profesional, ubicado en P7 con balcon, excelente distribucion. + $4.000 expensas",
       "imagen": "../img/propiedades/propiedad3.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--11598273"
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--11598273",
+      "estado": "venta"
     },
     {
       "nombre": "Pringles al 2600",
       "precio": "38.000",
       "descripcion": "Departamento en Venta en Caseros, Tres de Febrero. La unidad sera de 1 amb. con una excelente distribucion y facil division, cuenta con balcon.",
       "imagen": "../img/propiedades/propiedad4.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097"
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097",
+      "estado": "venta"
     },
     {
       "nombre": "Zavatarro al 4100",
       "precio": "85.000",
       "descripcion": "Excelente PH al frente con cochera en Venta en Santos Lugares, Tres de Febrero. 4 amb. con patio y terraza.",
       "imagen": "../img/propiedades/propiedad5.jpg",
-      "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261"
+      "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
+      "estado": "venta"
     },
     {
       "nombre": "Calle 8 al 3000",
       "precio": "45.000",
       "descripcion": "Departamento en Venta en San Clemente Del Tuyu, De La Costa. Excelente oportunidad para invertir en la costa!",
       "imagen": "../img/propiedades/propiedad6.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-san-clemente-del-tuyu--11434603"
+      "link": "https://www.argenprop.com/departamento-en-venta-en-san-clemente-del-tuyu--11434603",
+      "estado": "venta"
     },
     {
       "nombre": "Pringles al 2600",
       "precio": "8.000",
       "descripcion": "Cochera en Venta en Caseros, Tres de Febrero. Con porton automatizado, tu mejor opcion para invertir!",
       "imagen": "../img/propiedades/propiedad7.jpg",
-      "link": "https://www.argenprop.com/cochera-en-venta-en-caseros--11426461"
+      "link": "https://www.argenprop.com/cochera-en-venta-en-caseros--11426461",
+      "estado": "venta"
     },
     {
       "nombre": "Pringles 2653",
       "precio": "13.300",
       "descripcion": "Departamento en Venta en Caseros, Tres de Febrero. La unidad será de 1 amb. con una excelente distribución y fácil división.",
       "imagen": "../img/propiedades/propiedad8.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12596217"
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12596217",
+      "estado": "venta"
     },
     {
       "nombre": "Pringles 2600",
       "precio": "63.800",
       "descripcion": "La unidad será de 3 ambs. con una excelente distribución, creando espacios amplios para una mejor utilización del espacio.",
       "imagen": "../img/propiedades/propiedad9.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367"
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Pringles Alquiler",
+      "precio": "70.800",
+      "descripcion": "Propiedad en alquiler",
+      "imagen": "../img/propiedades/propiedad9.jpg",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367",
+      "estado": "alquiler"
+    },
+    {
+      "nombre": "Pringles Alquiler dos",
+      "precio": "70.800",
+      "descripcion": "Propiedad en alquiler",
+      "imagen": "../img/propiedades/propiedad9.jpg",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367",
+      "estado": "alquiler"
+    },
+    {
+      "nombre": "Pringles Alquiler tres",
+      "precio": "70.800",
+      "descripcion": "Propiedad en alquiler",
+      "imagen": "../img/propiedades/propiedad9.jpg",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367",
+      "estado": "alquiler"
     }
   ]
 }

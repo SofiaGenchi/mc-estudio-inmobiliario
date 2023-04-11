@@ -12,6 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import ScrollReveal from 'scrollreveal';
+import { useState } from 'react';
 
 
 function Propiedades() {
@@ -25,12 +26,56 @@ function Propiedades() {
       
       sr.reveal(`.popular__container`)
 
+
+
+      const [estadoBoton, setEstadoBoton] = useState("todos");
+
+      const propiedadesFiltradas =
+        estadoBoton === "todos"
+            ? data.propiedades
+            : data.propiedades.filter(
+                (propiedad) => propiedad.estado === estadoBoton
+            );
+
   return (
     <section className="popular section" id="propiedades">
         <div className="container">
             <span className="section__subtitle">Mejor elección</span>
             <h2 className='section__title'>Nuestras Propiedades <span>.</span></h2>
             
+
+            <div className="botones-propiedades">
+          <button
+            className={
+              estadoBoton === "todos"
+                ? "boton-estado seleccionado"
+                : "boton-estado"
+            }
+            onClick={() => setEstadoBoton("todos")}
+          >
+            Todos
+          </button>
+          <button
+            className={
+              estadoBoton === "venta"
+                ? "boton-estado seleccionado"
+                : "boton-estado"
+            }
+            onClick={() => setEstadoBoton("venta")}
+          >
+            Venta
+          </button>
+          <button
+            className={
+              estadoBoton === "alquiler"
+                ? "boton-estado seleccionado"
+                : "boton-estado"
+            }
+            onClick={() => setEstadoBoton("alquiler")}
+          >
+            Alquiler
+          </button>
+        </div>
             <Swiper className="popular__container swiper"
                 modules={[Navigation]}
                 spaceBetween={22}
@@ -49,7 +94,7 @@ function Propiedades() {
                     nextEl: '.next',
                 }}
             >
-                {data.propiedades.map((propiedad, index) => (
+                {propiedadesFiltradas.map((propiedad, index) => (
                     <div className="swiper-wrapper" key={index}>
                     <SwiperSlide className='popular__card swiper-slide'>
                             <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
