@@ -27,6 +27,12 @@
   margin-bottom: 0.75rem;
 }
 
+.footer__title {
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
 .footer__logo box-icon {
   font-size: 1.25rem;
 }

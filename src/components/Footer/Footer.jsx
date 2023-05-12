@@ -1,6 +1,7 @@
 import React from 'react'
 import './footer.css'
 import 'boxicons'
+import { Link } from 'react-router-dom'
 
 import ScrollReveal from 'scrollreveal'
 
@@ -18,7 +19,7 @@ const Footer = () => {
     <footer className="footer section">
         <div className="footer__container container grid">
             <a href="#home" className="footer__logo">
-                MC <box-icon name='home-alt'></box-icon>
+                <img src="../favicon-32x32.png" alt="Maria Ines Sassone Estudio Inmobiliario" />
             </a>
             <p>Nuestra visión es hacer de todas las personas el mejor lugar para vivir para ellas.</p>
         </div>
@@ -29,11 +30,17 @@ const Footer = () => {
 
                 <ul className="footer__links">
                     <li>
-                        <a href="#value" className="footer__link">¿Cómo trabajamos?</a>
+                        <Link to={`/informacion`} className='footer__link'>
+                            <span>¿Cómo trabajamos?</span>
+                        </Link>
+                        {/* <a href="#info" className="footer__link">¿Cómo trabajamos?</a> */}
                     </li>
 
                     <li>
-                        <a href="#value" className="footer__link">Seguridad</a>
+                    <Link to={`/informacion`} className='footer__link'>
+                            <span>Seguridad</span>
+                        </Link>
+                        {/* <a href="#info" className="footer__link">Seguridad</a> */}
                     </li>
                 </ul>
             </div>

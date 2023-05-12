@@ -14,9 +14,12 @@ const Header = () => {
   return (
     <header className="header" id="header">
       <nav className="nav container">
-        <a href="#" className="nav__logo">
-          <img src="../favicon-32x32.png" alt="MC Estudio Inmobiliario" />
-        </a>
+        <Link to={`/`} className="nav__logo">
+          <img src="../favicon-32x32.png" alt="Maria Ines Sassone Estudio Inmobiliario" />
+        </Link>
+        {/* <a href="#" className="nav__logo">
+          <img src="../favicon-32x32.png" alt="Maria Ines Sassone Estudio Inmobiliario" />
+        </a> */}
 
         <div className="nav__menu">
           <ul className="nav__list">
