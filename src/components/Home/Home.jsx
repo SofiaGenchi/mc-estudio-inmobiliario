@@ -31,7 +31,7 @@ const Home = () => {
           <div className="home__container container grid">
             <div className="home__data">
               <h1 className="home__title">
-                MC <br />
+                María Inés Sassone <br />
                 Estudio <br />
                 Inmobiliario
               </h1>
