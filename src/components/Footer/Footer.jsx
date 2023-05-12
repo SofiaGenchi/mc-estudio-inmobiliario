@@ -18,9 +18,12 @@ const Footer = () => {
   return (
     <footer className="footer section">
         <div className="footer__container container grid">
-            <a href="#home" className="footer__logo">
+            <Link to={`/`} className='footer__logo'>
                 <img src="../favicon-32x32.png" alt="Maria Ines Sassone Estudio Inmobiliario" />
-            </a>
+            </Link>
+            {/* <a href="#home" className="footer__logo">
+                <img src="../favicon-32x32.png" alt="Maria Ines Sassone Estudio Inmobiliario" />
+            </a> */}
             <p>Nuestra visión es hacer de todas las personas el mejor lugar para vivir para ellas.</p>
         </div>
 
