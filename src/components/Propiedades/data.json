@@ -71,6 +71,14 @@
       "imagen": "../img/propiedades/propiedad9.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12589367",
       "estado": "venta"
+    },
+    {
+      "nombre": "Esteban Merlo 5000",
+      "precio": "74.900",
+      "descripcion": "Hermoso Ph 3 ambientes , excelente ubicación !a tan solo 6 cuadras del centro de Caseros , a 8  de la universidad UNTREF  y  de la estación Caseros Linea San Martin , fácil acceso hacia CABA por su cercanía a Av. Gral. Paz y Autopista acceso Oeste.",
+      "imagen": "../img/propiedades/propiedad10.jpg",
+      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12801905",
+      "estado": "venta"
     }
   ]
 }
