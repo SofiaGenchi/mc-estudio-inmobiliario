@@ -95,6 +95,14 @@
       "imagen": "../img/propiedades/pringles260036.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097",
       "estado": "venta"
+    },
+    {
+      "nombre": "Zavatarro al 4100",
+      "precio": "85.000",
+      "descripcion": "Excelente PH al frente con cochera. 4 ambientes con patio y terraza. Amplio 95 m2. Se encuentra ubicado en Santos Lugares a 300 mts del Instituto Santa Teresita y 800 mts del centro comercial.",
+      "imagen": "../img/propiedades/zavatarro4100.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
+      "estado": "venta"
     }
   ]
 }
