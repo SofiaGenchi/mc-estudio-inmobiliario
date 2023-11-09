@@ -71,6 +71,14 @@
       "imagen": "../img/propiedades/propcavassa2800.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--14539200",
       "estado": "venta"
+    },
+    {
+      "nombre": "Pringles al 2600",
+      "precio": "31.500",
+      "descripcion": "Departamento de 1 ambiente.Excelente distribucion y facil division, contando con un hermoso balcon corrido al frente de 6m2, brindando luminosidad a la unidad.",
+      "imagen": "../img/propiedades/pringles2600.jpg",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--13100082",
+      "estado": "venta"
     }
   ]
 }
