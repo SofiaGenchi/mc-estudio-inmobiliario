@@ -95,6 +95,38 @@
       "imagen": "../img/propiedades/zavatarro4100.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
       "estado": "venta"
+    },
+    {
+      "nombre": "Almafuerte al 3800",
+      "precio": "75.000",
+      "descripcion": "PH en Santos Lugares - Departamento Planta Baja. Ambientes luminosos y de gran circulacion de aire. Esta equipada con muebles. Entrada por amplio living comedor, a continuacion cocina separada por puerta embutida de madera con vidrios repartidos, que dan privacidad al ambiente.",
+      "imagen": "../img/propiedades/almafuerte3800.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-3-ambientes--14701104",
+      "estado": "venta"
+    },
+    {
+      "nombre": "De los Paraisos al 6300",
+      "precio": "6.900",
+      "descripcion": "Cochera cubierta con porton automatico y alarma. Baja expensa anual. Posible financiacion.",
+      "imagen": "../img/propiedades/delosparaisos6300.png",
+      "link": "https://www.argenprop.com/cochera-en-venta-en-ciudad-jardin-del-palomar--14701499",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Esteban Merlo al 5700",
+      "precio": "68.000",
+      "descripcion": "Casa de 3 ambientes tipo PH. Amplio jardin al frente y entrada para auto.",
+      "imagen": "../img/propiedades/estebanmerlo5700.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--14706797",
+      "estado": "venta"
+    },
+     {
+      "nombre": "San Jorge al 2600",
+      "precio": "43.000",
+      "descripcion": "Departamento en Caseros 1 ambiente. 5to piso al frente. Ideal profesional.",
+      "imagen": "../img/propiedades/sanjorge2600.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--14716681",
+      "estado": "venta"
     }
   ]
 }
