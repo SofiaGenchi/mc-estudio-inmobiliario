@@ -63,6 +63,14 @@
       "imagen": "../img/propiedades/propiedad10.jpg",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12801905",
       "estado": "venta"
+    },
+    {
+      "nombre": "Cavassa al 2800",
+      "precio": "49.000",
+      "descripcion": "Departamento 2 ambientes, con una ubicacion excelente en Caseros. Se ingresa a la unidad por living comedor, que al tener salida al balcon por su amplio ventanal otorga al ambiente luminosidad y calidez. +9.000 expensas.",
+      "imagen": "../img/propiedades/cavassaal2800.webp",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--14539200",
+      "estado": "venta"
     }
   ]
 }
