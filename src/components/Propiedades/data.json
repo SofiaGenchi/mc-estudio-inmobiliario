@@ -79,6 +79,14 @@
       "imagen": "../img/propiedades/pringles2600.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--13100082",
       "estado": "venta"
+    },
+    {
+      "nombre": "Pringles al 2600",
+      "precio": "54.000",
+      "descripcion": "Este emprendimiento se emplaza en la localidad de Caseros, un barrio en constante desarrollo. La unidad sera de 3 ambientes, con una excelente distribucion, creando espacios amplios para una mejor utilizacion de sus ambiente.",
+      "imagen": "../img/propiedades/pringles260054.jpg",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12931191",
+      "estado": "venta"
     }
   ]
 }
