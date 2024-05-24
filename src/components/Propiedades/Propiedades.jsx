@@ -21,13 +21,13 @@ function Propiedades() {
     sr.reveal(`.popular__container`);
 
     const [estadoBoton, setEstadoBoton] = useState("todos");
-    const [moneda, setMoneda] = useState("USD");
+    const [moneda, setMoneda] = useState("$");
 
     useEffect(() => {
-        if (estadoBoton === "alquiler") {
-            setMoneda("$");
-        } else {
+        if (estadoBoton === "venta") {
             setMoneda("USD");
+        } else if (estadoBoton === "alquiler") {
+            setMoneda("$");
         }
     }, [estadoBoton]);
 
