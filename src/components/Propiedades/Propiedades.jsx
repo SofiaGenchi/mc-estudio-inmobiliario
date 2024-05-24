@@ -29,15 +29,18 @@ function Propiedades() {
 
 
       const [estadoBoton, setEstadoBoton] = useState("todos");
-
-      const propiedadesFiltradas =
-        estadoBoton === "todos"
-            ? data.propiedades
-            : data.propiedades.filter(
-                (propiedad) => propiedad.estado === estadoBoton
-            );
-
-  return (
+const [propiedadesFiltradas, setPropiedadesFiltradas] = useState(data.propiedades);
+const handleFilterChange = () => {
+setPropiedadesFiltradas(
+estadoBoton === "todos"
+? data.propiedades
+: data.propiedades.filter((propiedad) => propiedad.estado === estadoBoton)
+);
+};
+useEffect(() => {
+handleFilterChange();
+}, [estadoBoton]);
+return (
     <section className="popular section" id="propiedades">
         <div className="container">
             <span className="section__subtitle">Mejor elección</span>
