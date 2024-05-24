@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 import ScrollReveal from 'scrollreveal';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 
 function Propiedades() {
@@ -28,15 +28,15 @@ function Propiedades() {
 
 
 
-      const [estadoBoton, setEstadoBoton] = useState("todos");
-const [propiedadesFiltradas, setPropiedadesFiltradas] = useState(data.propiedades);
-const handleFilterChange = () => {
-setPropiedadesFiltradas(
-estadoBoton === "todos"
-? data.propiedades
-: data.propiedades.filter((propiedad) => propiedad.estado === estadoBoton)
-);
-};
+    const [estadoBoton, setEstadoBoton] = useState("todos");
+    const [propiedadesFiltradas, setPropiedadesFiltradas] = useState(data.propiedades);
+    const handleFilterChange = () => {
+        setPropiedadesFiltradas(
+        estadoBoton === "todos"
+        ? data.propiedades
+        : data.propiedades.filter((propiedad) => propiedad.estado === estadoBoton)
+    );
+    };
 useEffect(() => {
 handleFilterChange();
 }, [estadoBoton]);
