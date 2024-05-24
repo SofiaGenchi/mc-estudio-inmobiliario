@@ -36,7 +36,10 @@ function Propiedades() {
             : data.propiedades.filter(
                 (propiedad) => propiedad.estado === estadoBoton
             );
-
+     if(propiedad.estado === "alquiler"){
+         document.getElementById('moneda').textContent = '$';
+     };
+    
   return (
     <section className="popular section" id="propiedades">
         <div className="container">
@@ -103,7 +106,7 @@ function Propiedades() {
                             </a>
                         <div className="popular__data">
                             <h2 className="popular__price">
-                                <span>USD</span> {propiedad.precio}
+                                <span id="moneda">USD</span> {propiedad.precio}
                             </h2>
                             <h3 className="popular__title">
                                 <a className='nombre-propiedad' href={propiedad.link} target="_blank" rel="noopener noreferrer">
