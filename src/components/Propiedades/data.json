@@ -108,7 +108,7 @@
      {
       "nombre": "San Jorge al 2600",
       "precio": "43.000",
-       "moneda": "USD",
+      "moneda": "USD",
       "descripcion": "Departamento en Caseros 1 ambiente. 5to piso al frente. Ideal profesional.",
       "imagen": "../img/propiedades/sanjorge2600.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--14716681",
