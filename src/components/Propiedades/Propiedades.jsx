@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper';
 import data from './data.json';
@@ -21,15 +21,6 @@ function Propiedades() {
     sr.reveal(`.popular__container`);
 
     const [estadoBoton, setEstadoBoton] = useState("todos");
-    const [moneda, setMoneda] = useState("$");
-
-    useEffect(() => {
-        if (estadoBoton === "venta") {
-            setMoneda("USD");
-        } else if (estadoBoton === "alquiler") {
-            setMoneda("$");
-        }
-    }, [estadoBoton]);
 
     const filtrarPropiedades = (estado) => {
         setEstadoBoton(estado);
@@ -90,7 +81,7 @@ function Propiedades() {
                             </a>
                             <div className="popular__data">
                                 <h2 className="popular__price">
-                                    <span>{moneda}</span> {propiedad.precio}
+                                    <span>{propiedad.moneda}</span> {propiedad.precio}
                                 </h2>
                                 <h3 className="popular__title">
                                     <a className='nombre-propiedad' href={propiedad.link} target="_blank" rel="noopener noreferrer">
