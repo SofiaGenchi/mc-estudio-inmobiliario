@@ -2,7 +2,7 @@
   "propiedades": [
     {
       "nombre": "Puan al 4300",
-      "precio": "53.000",
+      "precio": "vendido",
       "descripcion": "Hermoso Ph en Venta en Caseros, Tres de Febrero. Desarrollado en primer piso con acceso por escalera.",
       "imagen": "../img/propiedades/propiedad1.jpg",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12648219",
@@ -10,23 +10,15 @@
     },
     {
       "nombre": "Bonifacini al 5500",
-      "precio": "121.000",
+      "precio": "110.000",
       "descripcion": "Casa en Venta en Caseros, Tres de Febrero. Construida en una planta, se ingresa por hall de entrada que distribuye a los dormitorios y hacia el amplio comedor.",
       "imagen": "../img/propiedades/propiedad2.jpg",
       "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--12596301",
       "estado": "venta"
     },
     {
-      "nombre": "Pringles al 2600",
-      "precio": "59.500",
-      "descripcion": "Departamento en Venta en Caseros, Tres de Febrero. La unidad sera de 1 amb. con una excelente distribucion y facil division, cuenta con balcon.",
-      "imagen": "../img/propiedades/propiedad4.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097",
-      "estado": "venta"
-    },
-    {
       "nombre": "Calle 8 al 3000",
-      "precio": "45.000",
+      "precio": "vendido",
       "descripcion": "Departamento en Venta en San Clemente Del Tuyu, De La Costa. Excelente oportunidad para invertir en la costa!",
       "imagen": "../img/propiedades/propiedad6.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-san-clemente-del-tuyu--11434603",
@@ -58,7 +50,7 @@
     },
     {
       "nombre": "Cavassa al 2800",
-      "precio": "49.000",
+      "precio": "vendido",
       "descripcion": "Departamento 2 ambientes, con una ubicacion excelente en Caseros. Se ingresa a la unidad por living comedor, que al tener salida al balcon por su amplio ventanal otorga al ambiente luminosidad y calidez. +9.000 expensas.",
       "imagen": "../img/propiedades/propcavassa2800.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--14539200",
@@ -66,15 +58,7 @@
     },
     {
       "nombre": "Pringles al 2600",
-      "precio": "31.500",
-      "descripcion": "Departamento de 1 ambiente.Excelente distribucion y facil division, contando con un hermoso balcon corrido al frente de 6m2, brindando luminosidad a la unidad.",
-      "imagen": "../img/propiedades/pringles2600.jpg",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--13100082",
-      "estado": "venta"
-    },
-    {
-      "nombre": "Pringles al 2600",
-      "precio": "54.000",
+      "precio": "59.900",
       "descripcion": "Este emprendimiento se emplaza en la localidad de Caseros, un barrio en constante desarrollo. La unidad sera de 3 ambientes, con una excelente distribucion, creando espacios amplios para una mejor utilizacion de sus ambiente.",
       "imagen": "../img/propiedades/pringles260054.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--12931191",
@@ -82,15 +66,15 @@
     },
     {
       "nombre": "Pringles al 2600",
-      "precio": "36.500",
-      "descripcion": "La unidad sera de 1 ambiente con una excelente distribucion y facil division. Contando con un hermoso balcon corrido al frente de 6 m2, brindando luminosidad a la unidad. Terminaciones de calidad.",
+      "precio": "40.000",
+      "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division. Contando con un hermoso balcon corrido al frente de 6 m2, brindando luminosidad a la unidad. Terminaciones de calidad.",
       "imagen": "../img/propiedades/pringles260036.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097",
       "estado": "venta"
     },
     {
       "nombre": "Zavatarro al 4100",
-      "precio": "85.000",
+      "precio": "75.000",
       "descripcion": "Excelente PH al frente con cochera. 4 ambientes con patio y terraza. Amplio 95 m2. Se encuentra ubicado en Santos Lugares a 300 mts del Instituto Santa Teresita y 800 mts del centro comercial.",
       "imagen": "../img/propiedades/zavatarro4100.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
@@ -98,7 +82,7 @@
     },
     {
       "nombre": "Almafuerte al 3800",
-      "precio": "75.000",
+      "precio": "vendido",
       "descripcion": "PH en Santos Lugares - Departamento Planta Baja. Ambientes luminosos y de gran circulacion de aire. Esta equipada con muebles. Entrada por amplio living comedor, a continuacion cocina separada por puerta embutida de madera con vidrios repartidos, que dan privacidad al ambiente.",
       "imagen": "../img/propiedades/almafuerte3800.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-3-ambientes--14701104",
@@ -114,7 +98,7 @@
     },
     {
       "nombre": "Esteban Merlo al 5700",
-      "precio": "68.000",
+      "precio": "62.000",
       "descripcion": "Casa de 3 ambientes tipo PH. Amplio jardin al frente y entrada para auto.",
       "imagen": "../img/propiedades/estebanmerlo5700.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--14706797",
@@ -127,6 +111,54 @@
       "imagen": "../img/propiedades/sanjorge2600.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--14716681",
       "estado": "venta"
+    },
+    {
+      "nombre": "Pilar, Fincas Del Polo",
+      "precio": "215.000",
+      "descripcion": "Excelente oportunidad casa 5 ambientes en Pilar 770 m2. Es un barrio privado NO posee expensas!",
+      "imagen": "../img/propiedades/casapilar.png",
+      "link": "https://www.argenprop.com/casa-en-venta-en-pilar-5-ambientes--15637226",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Sabattini al 4600",
+      "precio": "84.900",
+      "descripcion": "Departamento Tres Ambientes con Dos cocheras en el centro de Caseros.",
+      "imagen": "../img/propiedades/sabattini4600.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--15655469",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Belgrano al 4800",
+      "precio": "51.900",
+      "descripcion": "Excelente departamento 2 ambientes ubicado en pleno centro de Caseros. Amueblado.",
+      "imagen": "../img/propiedades/belgrano4800.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--15274112",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Della Rosa al 4900",
+      "precio": "48.900",
+      "descripcion": "PH 2 Ambientes en Caseros. Zona colegio Cristo Rey. Primer piso por escalera. Excelente estado",
+      "imagen": "../img/propiedades/rosa4900.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-2-ambientes--15559668",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Belgrano al 1200",
+      "precio": "180.000",
+      "descripcion": "Venta de Hotel en Mar de Ajó. A solo 40 m. de la playa y a pocas cuadras del centro.",
+      "imagen": "../img/propiedades/hotel1200.png",
+      "link": "https://www.argenprop.com/hotel-en-venta-en-mar-de-ajo--14748546",
+      "estado": "venta"
+    },
+    {
+      "nombre": "José Hernandez al 1200",
+      "precio": "350.000",
+      "descripcion": "Alquiler - Moderno Departamento 2 ambientes en Edificio Deparc. +$15.000 expensas",
+      "imagen": "../img/propiedades/hernandez1200.png",
+      "link": "https://www.argenprop.com/departamento-en-alquiler-en-villa-bosch-2-ambientes--15715509",
+      "estado": "alquiler"
     }
   ]
 }
