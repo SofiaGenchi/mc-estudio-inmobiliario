@@ -37,7 +37,7 @@ function Propiedades() {
                 (propiedad) => propiedad.estado === estadoBoton
             );
      if(propiedad.estado === "alquiler"){
-         document.getElementById('moneda').textContent = '$';
+         document.querySelector('#moneda').textContent = '$';
      };
     
   return (
