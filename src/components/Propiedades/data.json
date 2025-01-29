@@ -11,7 +11,7 @@
     {
       "nombre": "Bonifacini al 5500",
       "precio": "USD 110.000",
-      "descripcion": "Casa en Venta en Caseros, Tres de Febrero. Construida en una planta, se ingresa por hall de entrada que distribuye a los dormitorios y hacia el amplio comedor.",
+      "descripcion": "Casa en Venta en Caseros - Construida en una planta",
       "imagen": "../img/propiedades/propiedad2.jpg",
       "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--12596301",
       "estado": "disponible"
@@ -35,7 +35,7 @@
     {
       "nombre": "Esteban Merlo 5000",
       "precio": "USD 64.900",
-      "descripcion": "Hermoso Ph 3 ambientes , excelente ubicación !a tan solo 6 cuadras del centro de Caseros , a 8  de la universidad UNTREF  y  de la estación Caseros Linea San Martin , fácil acceso hacia CABA por su cercanía a Av. Gral. Paz y Autopista acceso Oeste.",
+      "descripcion": "Hermoso Ph 3 ambientes, excelente ubicación, a tan solo 6 cuadras del centro de Caseros.",
       "imagen": "../img/propiedades/propiedad10.jpg",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12801905",
       "estado": "disponible"
@@ -43,7 +43,7 @@
     {
       "nombre": "Cavassa al 2800",
       "precio": "vendido",
-      "descripcion": "Departamento 2 ambientes, con una ubicacion excelente en Caseros. Se ingresa a la unidad por living comedor, que al tener salida al balcon por su amplio ventanal otorga al ambiente luminosidad y calidez. +9.000 expensas.",
+      "descripcion": "Departamento 2 ambientes, con una ubicacion excelente en Caseros.",
       "imagen": "../img/propiedades/propcavassa2800.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--14539200",
       "estado": "vendida"
@@ -51,7 +51,7 @@
     {
       "nombre": "Pringles al 2600",
       "precio": "USD 46.000",
-      "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division. Contando con un hermoso balcon corrido al frente de 6 m2, brindando luminosidad a la unidad. Terminaciones de calidad.",
+      "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division.",
       "imagen": "../img/propiedades/pringles260036.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--16404119",
       "estado": "disponible"
@@ -59,7 +59,7 @@
     {
       "nombre": "Zavatarro al 4100",
       "precio": "USD 75.000",
-      "descripcion": "Excelente PH al frente con cochera. 4 ambientes con patio y terraza. Amplio 95 m2. Se encuentra ubicado en Santos Lugares a 300 mts del Instituto Santa Teresita y 800 mts del centro comercial.",
+      "descripcion": "Excelente PH al frente con cochera. 4 ambientes con patio y terraza.",
       "imagen": "../img/propiedades/zavatarro4100.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
       "estado": "disponible"
@@ -67,7 +67,7 @@
     {
       "nombre": "Almafuerte al 3800",
       "precio": "vendido",
-      "descripcion": "PH en Santos Lugares - Departamento Planta Baja. Ambientes luminosos y de gran circulacion de aire. Esta equipada con muebles. Entrada por amplio living comedor, a continuacion cocina separada por puerta embutida de madera con vidrios repartidos, que dan privacidad al ambiente.",
+      "descripcion": "PH en Santos Lugares - Departamento Planta Baja.",
       "imagen": "../img/propiedades/almafuerte3800.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-3-ambientes--14701104",
       "estado": "vendida"
