@@ -6,7 +6,7 @@
       "descripcion": "Hermoso Ph en Venta en Caseros, Tres de Febrero. Desarrollado en primer piso con acceso por escalera.",
       "imagen": "../img/propiedades/propiedad1.jpg",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12648219",
-      "estado": "venta"
+      "estado": "vendida"
     },
     {
       "nombre": "Bonifacini al 5500",
@@ -22,7 +22,7 @@
       "descripcion": "Departamento en Venta en San Clemente Del Tuyu, De La Costa. Excelente oportunidad para invertir en la costa!",
       "imagen": "../img/propiedades/propiedad6.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-san-clemente-del-tuyu--11434603",
-      "estado": "venta"
+      "estado": "vendida"
     },
     {
       "nombre": "Pringles al 2600",
@@ -46,7 +46,7 @@
       "descripcion": "Departamento 2 ambientes, con una ubicacion excelente en Caseros. Se ingresa a la unidad por living comedor, que al tener salida al balcon por su amplio ventanal otorga al ambiente luminosidad y calidez. +9.000 expensas.",
       "imagen": "../img/propiedades/propcavassa2800.jpg",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--14539200",
-      "estado": "venta"
+      "estado": "vendida"
     },
     {
       "nombre": "Pringles al 2600",
@@ -78,7 +78,7 @@
       "descripcion": "PH en Santos Lugares - Departamento Planta Baja. Ambientes luminosos y de gran circulacion de aire. Esta equipada con muebles. Entrada por amplio living comedor, a continuacion cocina separada por puerta embutida de madera con vidrios repartidos, que dan privacidad al ambiente.",
       "imagen": "../img/propiedades/almafuerte3800.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-3-ambientes--14701104",
-      "estado": "venta"
+      "estado": "vendida"
     },
     {
       "nombre": "De los Paraisos al 6300",
