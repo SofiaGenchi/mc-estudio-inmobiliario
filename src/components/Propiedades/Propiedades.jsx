@@ -59,7 +59,7 @@ function Propiedades() {
                     alt={propiedad.descripcion}
                     className="popular__img"
                   />
-                  <div className="vendida-banner">VENDIDA</div>
+                  <div className="vendida-banner">VENDIDO</div>
                 </div>
               ) : (
                 <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
