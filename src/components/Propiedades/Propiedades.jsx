@@ -52,20 +52,34 @@ function Propiedades() {
               className={`popular__card swiper-slide ${propiedad.estado === "vendida" ? "vendida" : ""}`}
               key={index}
             >
-              <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
-                <img
-                  src={propiedad.imagen || "/placeholder.svg"}
-                  alt={propiedad.descripcion}
-                  className="popular__img"
-                />
-              </a>
-              {propiedad.estado === "vendida" && <div className="vendida-banner">VENDIDO</div>}
+              {propiedad.estado === "vendida" ? (
+                <div>
+                  <img
+                    src={propiedad.imagen || "/placeholder.svg"}
+                    alt={propiedad.descripcion}
+                    className="popular__img"
+                  />
+                  <div className="vendida-banner">VENDIDA</div>
+                </div>
+              ) : (
+                <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={propiedad.imagen || "/placeholder.svg"}
+                    alt={propiedad.descripcion}
+                    className="popular__img"
+                  />
+                </a>
+              )}
               <div className="popular__data">
                 {propiedad.estado !== "vendida" && <h2 className="popular__price">{propiedad.precio}</h2>}
                 <h3 className="popular__title">
-                  <a className="nombre-propiedad" href={propiedad.link} target="_blank" rel="noopener noreferrer">
-                    {propiedad.nombre}
-                  </a>
+                  {propiedad.estado === "vendida" ? (
+                    <span className="nombre-propiedad">{propiedad.nombre}</span>
+                  ) : (
+                    <a className="nombre-propiedad" href={propiedad.link} target="_blank" rel="noopener noreferrer">
+                      {propiedad.nombre}
+                    </a>
+                  )}
                 </h3>
                 <p className="popular__description">{propiedad.descripcion}</p>
               </div>
