@@ -59,7 +59,7 @@ function Propiedades() {
                   className="popular__img"
                 />
               </a>
-              {propiedad.estado === "vendida" && <div className="vendida-banner">VENDIDA</div>}
+              {propiedad.estado === "vendida" && <div className="vendida-banner">VENDIDO</div>}
               <div className="popular__data">
                 {propiedad.estado !== "vendida" && <h2 className="popular__price">{propiedad.precio}</h2>}
                 <h3 className="popular__title">
