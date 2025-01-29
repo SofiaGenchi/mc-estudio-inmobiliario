@@ -162,3 +162,23 @@ a.nombre-propiedad{
 .swiper-next {
   right: calc(50% - 3rem);
 }
+
+.popular__card.vendida {
+  opacity: 0.6;
+  position: relative;
+}
+
+.vendida-banner {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 10;
+  transform: translateY(-50%);
+}
