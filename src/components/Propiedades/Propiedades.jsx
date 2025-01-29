@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useMemo } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { Navigation } from "swiper"
 import data from "./data.json"
@@ -20,6 +20,14 @@ function Propiedades() {
   })
 
   sr.reveal(`.popular__container`)
+
+  const propiedadesOrdenadas = useMemo(() => {
+    return [...data.propiedades].sort((a, b) => {
+      if (a.estado === "disponible" && b.estado !== "disponible") return -1
+      if (a.estado !== "disponible" && b.estado === "disponible") return 1
+      return 0
+    })
+  }, [data]) // Updated dependency
 
   return (
     <section className="popular section" id="propiedades">
@@ -47,7 +55,7 @@ function Propiedades() {
             nextEl: ".next",
           }}
         >
-          {data.propiedades.map((propiedad, index) => (
+          {propiedadesOrdenadas.map((propiedad, index) => (
             <SwiperSlide
               className={`popular__card swiper-slide ${propiedad.estado === "vendida" ? "vendida" : ""}`}
               key={index}
@@ -59,7 +67,7 @@ function Propiedades() {
                     alt={propiedad.descripcion}
                     className="popular__img"
                   />
-                  <div className="vendida-banner">VENDIDO</div>
+                  <div className="vendida-banner">VENDIDA</div>
                 </div>
               ) : (
                 <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
