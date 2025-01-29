@@ -138,7 +138,7 @@
     },
     {
       "nombre": "Belgrano al 1200",
-      "precio": "USD 180.000",
+      "precio": "USD 210.000",
       "descripcion": "Venta de Hotel en Mar de Ajó. A solo 40 m. de la playa y a pocas cuadras del centro.",
       "imagen": "../img/propiedades/hotel1200.png",
       "link": "https://www.argenprop.com/hotel-en-venta-en-mar-de-ajo--14748546",
@@ -174,6 +174,30 @@
       "descripcion": "Venta en bloque - Dos departamentos en Planta Baja",
       "imagen": "../img/propiedades/giorello1600.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-santos-lugares-6-ambientes--16877606",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Quintana al 100",
+      "precio": "USD 58.000",
+      "descripcion": "PH Dos ambientes - Excelente iluminacion - Villa Bosch",
+      "imagen": "../img/propiedades/quintana100.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-villa-bosch-2-ambientes--16675048",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Calle 83 al 600",
+      "precio": "USD 39.000",
+      "descripcion": "Departamento tipo Duplex en Mar del Tuyu",
+      "imagen": "../img/propiedades/calle83.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-mar-del-tuyu-4-ambientes--15954688",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Calle 45 al 600",
+      "precio": "USD 47.000",
+      "descripcion": "Casa Tres ambientes tipo PH Frente Santa Teresita",
+      "imagen": "../img/propiedades/calle45.png",
+      "link": "https://www.argenprop.com/ph-en-venta-en-santa-teresita-3-ambientes--15860967",
       "estado": "venta"
     }
   ]
