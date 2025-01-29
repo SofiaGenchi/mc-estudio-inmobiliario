@@ -58,10 +58,10 @@
     },
     {
       "nombre": "Pringles al 2600",
-      "precio": "USD 40.000",
+      "precio": "USD 46.000",
       "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division. Contando con un hermoso balcon corrido al frente de 6 m2, brindando luminosidad a la unidad. Terminaciones de calidad.",
       "imagen": "../img/propiedades/pringles260036.png",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--12479097",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--16404119",
       "estado": "venta"
     },
     {
@@ -106,10 +106,10 @@
     },
     {
       "nombre": "Pilar, Fincas Del Polo",
-      "precio": "USD 215.000",
+      "precio": "USD 175.000",
       "descripcion": "Excelente oportunidad casa 5 ambientes en Pilar 770 m2. Es un barrio privado NO posee expensas!",
       "imagen": "../img/propiedades/casapilar.png",
-      "link": "https://www.argenprop.com/casa-en-venta-en-pilar-5-ambientes--15637226",
+      "link": "https://www.argenprop.com/casa-en-venta-en-pilar-5-ambientes--16853208",
       "estado": "venta"
     },
     {
@@ -151,6 +151,30 @@
       "imagen": "../img/propiedades/hernandez1200.png",
       "link": "https://www.argenprop.com/departamento-en-alquiler-en-villa-bosch-2-ambientes--15715509",
       "estado": "alquiler"
+    },
+    {
+      "nombre": "Murias al 2200",
+      "precio": "USD 63.900",
+      "descripcion": "Departamento en Caseros 2 amb a estrenar",
+      "imagen": "../img/propiedades/murias2200.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--16244143",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Rocios del Pilar",
+      "precio": "USD 300.000",
+      "descripcion": "Casa en el barrio Rocios del Pilar a estrenar",
+      "imagen": "../img/propiedades/rociosdelpilar.png",
+      "link": "https://www.argenprop.com/casa-en-venta-en-rocios-del-pilar--16469056",
+      "estado": "venta"
+    },
+    {
+      "nombre": "Giorello al 1600",
+      "precio": "USD 105.000",
+      "descripcion": "Venta en bloque - Dos departamentos en Planta Baja",
+      "imagen": "../img/propiedades/giorello1600.png",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-santos-lugares-6-ambientes--16877606",
+      "estado": "venta"
     }
   ]
 }
