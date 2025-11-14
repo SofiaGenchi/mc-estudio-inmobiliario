@@ -50,10 +50,10 @@
     },
     {
       "nombre": "Pringles al 2600",
-      "precio": "USD 46.000",
+      "precio": "USD 49.000",
       "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division.",
       "imagen": "../img/propiedades/pringles260036.png",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--16404119",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--17739917",
       "estado": "disponible"
     },
     {
@@ -162,10 +162,10 @@
     },
     {
       "nombre": "Giorello al 1600",
-      "precio": "USD 105.000",
+      "precio": "USD 89.500",
       "descripcion": "Venta en bloque - Dos departamentos en Planta Baja",
       "imagen": "../img/propiedades/giorello1600.png",
-      "link": "https://www.argenprop.com/departamento-en-venta-en-santos-lugares-6-ambientes--16877606",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-santos-lugares-6-ambientes--18512464",
       "estado": "disponible"
     },
     {
@@ -178,7 +178,7 @@
     },
     {
       "nombre": "Calle 83 al 600",
-      "precio": "USD 39.000",
+      "precio": "USD 37.500",
       "descripcion": "Departamento tipo Duplex en Mar del Tuyu",
       "imagen": "../img/propiedades/calle83.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-mar-del-tuyu-4-ambientes--15954688",
@@ -190,6 +190,94 @@
       "descripcion": "Casa Tres ambientes tipo PH Frente Santa Teresita",
       "imagen": "../img/propiedades/calle45.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santa-teresita-3-ambientes--15860967",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Fischetti 4600",
+      "precio": "USD 155.000",
+      "descripcion": "Casa en Caseros, lote propio. Apto Credito.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--18497196",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Sabatini 4800",
+      "precio": "USD 90.000",
+      "descripcion": "Departamento tres ambientes. Amplio y luminoso. Caseros centro.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--18365057",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Bonifacini 5500",
+      "precio": "USD 64.900",
+      "descripcion": "Venta casa lote propio. A refaccionar. Excelente oportunidad para realizar tu proyecto de casa propia con un bajo costo inicial.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--18407051",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Bonifacini 5000",
+      "precio": "USD 51.000",
+      "descripcion": "Departamento dos ambientes, Caseros. Oportunidad lanzamiento de pozo al costo.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--17765082",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Patricios 1800",
+      "precio": "USD 115.000",
+      "descripcion": "Excelente terreno en Santos Lugares, para desarrollo inmobiliario. Lote PH en venta.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/terreno-en-venta-en-santos-lugares--18113330",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Boulevard San Martin 2600",
+      "precio": "$ 650.000",
+      "descripcion": "Alquiler departamento 3 ambientes. Ciudad Jardin, Palomar. + $55.000 expensas",
+      "imagen": "",
+      "link": "https://www.argenprop.com/departamento-en-alquiler-en-ciudad-jardin-del-palomar-3-ambientes--18357703",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Zeyen 6200",
+      "precio": "USD 115.000",
+      "descripcion": "Venta amplio y luminoso departamento 3 ambientes. Ciudad Jardin Palomar. +75.000 expensas.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-ciudad-jardin-del-palomar-3-ambientes--18358730",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Lobos 1100",
+      "precio": "USD 74.000",
+      "descripcion": "PH en Castelar Norte. Apto credito.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/ph-en-venta-en-castelar-norte-2-ambientes--17123950",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Carbone 3700",
+      "precio": "USD 170.000",
+      "descripcion": "Venta de lote con renta de cocheras y casa 3 ambientes en Santos Lugares.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/cochera-en-venta-en-santos-lugares--17317288",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Sabattini 4600",
+      "precio": "USD 63.600",
+      "descripcion": "Departamento dos ambientes. Amplio y luminoso. Caseros centro.",
+      "imagen": "",
+      "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--18196341",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Sabattini 4800",
+      "precio": "USD 68.700",
+      "descripcion": "Departamento dos ambientes. Caseros centro.",
+      "imagen": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--18196344",
+      "link": "",
       "estado": "disponible"
     }
   ]
