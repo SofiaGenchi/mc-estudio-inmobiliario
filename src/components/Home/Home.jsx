@@ -39,9 +39,13 @@ const Home = () => {
                 Encuentre una variedad de propiedades que se adapten a usted muy
                 fácilmente, olvídese de todas las dificultades para encontrar un
                 hogar.
+                <br></br>
+                Ubicación: Caseros, Tres De Febrero
+                <br></br>
+                Horarios de atención: Lun a Vie de 10 a 17
               </p>
 
-              <div className="home__value">
+              {/* <div className="home__value">
                 <div>
                   <h2 className="home__value-number">
                     9K <span>+</span>
@@ -60,7 +64,7 @@ const Home = () => {
                     Cliente <br />
                     Feliz
                   </span>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
