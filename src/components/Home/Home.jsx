@@ -45,7 +45,8 @@ const Home = () => {
                 Horarios de atención: Lun a Vie de 10 a 17
               </p>
 
-              {/* <div className="home__value">
+              {/* 
+              <div className="home__value">
                 <div>
                   <h2 className="home__value-number">
                     9K <span>+</span>
@@ -64,15 +65,18 @@ const Home = () => {
                     Cliente <br />
                     Feliz
                   </span>
-                </div> */}
+                </div>
               </div>
+              */}
             </div>
           </div>
         </section>
+
         <Propiedades />
         <ImgGallery />
         <Contact />
       </main>
+
       <Footer />
     </div>
   );
