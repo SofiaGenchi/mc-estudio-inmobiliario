@@ -14,7 +14,7 @@
       "descripcion": "Casa en Venta en Caseros - Construida en una planta",
       "imagen": "../img/propiedades/propiedad2.jpg",
       "link": "https://www.argenprop.com/casa-en-venta-en-caseros-3-ambientes--12596301",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Calle 8 al 3000",
@@ -30,15 +30,7 @@
       "descripcion": "Cochera en Venta en Caseros, Tres de Febrero. Con porton automatizado, tu mejor opcion para invertir!",
       "imagen": "../img/propiedades/propiedad7.jpg",
       "link": "https://www.argenprop.com/cochera-en-venta-en-caseros--11426461",
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Esteban Merlo 5000",
-      "precio": "USD 64.900",
-      "descripcion": "Hermoso Ph 3 ambientes, excelente ubicación, a tan solo 6 cuadras del centro de Caseros.",
-      "imagen": "../img/propiedades/propiedad10.jpg",
-      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--12801905",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Cavassa al 2800",
@@ -62,7 +54,7 @@
       "descripcion": "Excelente PH al frente con cochera. 4 ambientes con patio y terraza.",
       "imagen": "../img/propiedades/zavatarro4100.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-santos-lugares-4-ambientes--11387261",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Almafuerte al 3800",
@@ -78,15 +70,7 @@
       "descripcion": "Cochera cubierta con porton automatico y alarma. Baja expensa anual. Posible financiacion.",
       "imagen": "../img/propiedades/delosparaisos6300.png",
       "link": "https://www.argenprop.com/cochera-en-venta-en-ciudad-jardin-del-palomar--14701499",
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Esteban Merlo al 5700",
-      "precio": "USD 62.000",
-      "descripcion": "Casa de 3 ambientes tipo PH. Amplio jardin al frente y entrada para auto.",
-      "imagen": "../img/propiedades/estebanmerlo5700.png",
-      "link": "https://www.argenprop.com/ph-en-venta-en-caseros-3-ambientes--14706797",
-      "estado": "disponible"
+      "estado": "vendida"
     },
      {
       "nombre": "San Jorge al 2600",
@@ -94,7 +78,7 @@
       "descripcion": "Departamento en Caseros 1 ambiente. 5to piso al frente. Ideal profesional.",
       "imagen": "../img/propiedades/sanjorge2600.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--14716681",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Pilar, Fincas Del Polo",
@@ -102,7 +86,7 @@
       "descripcion": "Excelente oportunidad casa 5 ambientes en Pilar 770 m2. Es un barrio privado NO posee expensas!",
       "imagen": "../img/propiedades/casapilar.png",
       "link": "https://www.argenprop.com/casa-en-venta-en-pilar-5-ambientes--16853208",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Sabattini al 4600",
@@ -110,7 +94,7 @@
       "descripcion": "Departamento Tres Ambientes con Dos cocheras en el centro de Caseros.",
       "imagen": "../img/propiedades/sabattini4600.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--15655469",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Belgrano al 4800",
@@ -126,7 +110,7 @@
       "descripcion": "PH 2 Ambientes en Caseros. Zona colegio Cristo Rey. Primer piso por escalera. Excelente estado",
       "imagen": "../img/propiedades/rosa4900.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-caseros-2-ambientes--15559668",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Belgrano al 1200",
@@ -134,15 +118,7 @@
       "descripcion": "Venta de Hotel en Mar de Ajó. A solo 40 m. de la playa y a pocas cuadras del centro.",
       "imagen": "../img/propiedades/hotel1200.png",
       "link": "https://www.argenprop.com/hotel-en-venta-en-mar-de-ajo--14748546",
-      "estado": "disponible"
-    },
-    {
-      "nombre": "José Hernandez al 1200",
-      "precio": "$350.000",
-      "descripcion": "Alquiler - Moderno Departamento 2 ambientes en Edificio Deparc. +$15.000 expensas",
-      "imagen": "../img/propiedades/hernandez1200.png",
-      "link": "https://www.argenprop.com/departamento-en-alquiler-en-villa-bosch-2-ambientes--15715509",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Murias al 2200",
@@ -150,7 +126,7 @@
       "descripcion": "Departamento en Caseros 2 amb a estrenar",
       "imagen": "../img/propiedades/murias2200.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--16244143",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Rocios del Pilar",
@@ -158,7 +134,7 @@
       "descripcion": "Casa en el barrio Rocios del Pilar a estrenar",
       "imagen": "../img/propiedades/rociosdelpilar.png",
       "link": "https://www.argenprop.com/casa-en-venta-en-rocios-del-pilar--16469056",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Giorello al 1600",
@@ -174,7 +150,7 @@
       "descripcion": "PH Dos ambientes - Excelente iluminacion - Villa Bosch",
       "imagen": "../img/propiedades/quintana100.png",
       "link": "https://www.argenprop.com/ph-en-venta-en-villa-bosch-2-ambientes--16675048",
-      "estado": "disponible"
+      "estado": "vendida"
     },
     {
       "nombre": "Calle 83 al 600",
@@ -182,14 +158,6 @@
       "descripcion": "Departamento tipo Duplex en Mar del Tuyu",
       "imagen": "../img/propiedades/calle83.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-mar-del-tuyu-4-ambientes--15954688",
-      "estado": "disponible"
-    },
-    {
-      "nombre": "Calle 45 al 600",
-      "precio": "USD 47.000",
-      "descripcion": "Casa Tres ambientes tipo PH Frente Santa Teresita",
-      "imagen": "../img/propiedades/calle45.png",
-      "link": "https://www.argenprop.com/ph-en-venta-en-santa-teresita-3-ambientes--15860967",
       "estado": "disponible"
     },
     {
