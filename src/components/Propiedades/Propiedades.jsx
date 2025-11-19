@@ -57,17 +57,25 @@ function Propiedades() {
         >
           {propiedadesOrdenadas.map((propiedad, index) => (
             <SwiperSlide
-              className={`popular__card swiper-slide ${propiedad.estado === "vendida" ? "vendida" : ""}`}
+              className={`popular__card swiper-slide ${propiedad.estado === "vendida" ? "vendida" : propiedad.estado === "reservado" ? "reservada" : (propiedad.estado === "alquilado" || propiedad.estado === "alquilada") ? "alquilada" : ""}`}
               key={index}
             >
-              {propiedad.estado === "vendida" ? (
-                <div>
+              {propiedad.estado === "vendida" || propiedad.estado === "reservado" || propiedad.estado === "alquilado" || propiedad.estado === "alquilada" ? (
+                <div className="image-wrapper">
                   <img
                     src={propiedad.imagen || "/placeholder.svg"}
                     alt={propiedad.descripcion}
                     className="popular__img"
                   />
-                  <div className="vendida-banner">VENDIDO</div>
+                  <div className={
+                    propiedad.estado === "vendida"
+                      ? "vendida-banner"
+                      : propiedad.estado === "reservado"
+                      ? "reservada-banner"
+                      : "alquilado-banner"
+                  }>
+                    {propiedad.estado === "vendida" ? "VENDIDO" : propiedad.estado === "reservado" ? "RESERVADO" : "ALQUILADO"}
+                  </div>
                 </div>
               ) : (
                 <a href={propiedad.link} target="_blank" rel="noopener noreferrer">
@@ -79,9 +87,9 @@ function Propiedades() {
                 </a>
               )}
               <div className="popular__data">
-                {propiedad.estado !== "vendida" && <h2 className="popular__price">{propiedad.precio}</h2>}
+                {propiedad.estado !== "vendida" && propiedad.estado !== "reservado" && propiedad.estado !== "alquilado" && propiedad.estado !== "alquilada" && <h2 className="popular__price">{propiedad.precio}</h2>}
                 <h3 className="popular__title">
-                  {propiedad.estado === "vendida" ? (
+                  {propiedad.estado === "vendida" || propiedad.estado === "reservado" || propiedad.estado === "alquilado" || propiedad.estado === "alquilada" ? (
                     <span className="nombre-propiedad">{propiedad.nombre}</span>
                   ) : (
                     <a className="nombre-propiedad" href={propiedad.link} target="_blank" rel="noopener noreferrer">

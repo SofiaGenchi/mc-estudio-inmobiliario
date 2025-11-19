@@ -46,7 +46,7 @@
       "descripcion": "Ultima unidad de 1 ambiente con una excelente distribucion y facil division.",
       "imagen": "../img/propiedades/pringles260036.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-1-ambiente--17739917",
-      "estado": "disponible"
+      "estado": "reservado"
     },
     {
       "nombre": "Zavatarro al 4100",
@@ -169,12 +169,12 @@
       "estado": "disponible"
     },
     {
-      "nombre": "Sabatti 4800",
+      "nombre": "Sabattini 4800",
       "precio": "USD 90.000",
       "descripcion": "Departamento tres ambientes. Amplio y luminoso. Caseros centro.",
-      "imagen": "../img/propiedades/Sabatinial4800.png",
+      "imagen": "../img/propiedades/Sabattinial4800.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-3-ambientes--18365057",
-      "estado": "disponible"
+      "estado": "reservado"
     },
     {
       "nombre": "Bonifacini 5500",
@@ -247,6 +247,30 @@
       "imagen": "../img/propiedades/Sabattinial4800.png",
       "link": "https://www.argenprop.com/departamento-en-venta-en-caseros-2-ambientes--18196344",
       "estado": "disponible"
+    },
+    {
+      "nombre": "Av. Mitre al 4800",
+      "precio": "USD 49.900",
+      "descripcion": "Departamento 1 ambiente, Caseros. Apto crédito. Expensas: 90.000.",
+      "imagen": "../img/propiedades/avmitreal4800.png",
+      "link": "https://ficha.info/p/5cc2f29278da4a7a80e97580fed2ab4d?v=1763136991859",
+      "estado": "disponible"
+    },
+    {
+      "nombre": "Iribarren al 2800",
+      "precio": "USD 110.000",
+      "descripcion": "Casa Tres Ambientes en Lote Propio, Caseros. Apto credito.",
+      "imagen": "../img/propiedades/iribarrenal2800.png",
+      "link": "https://ficha.info/p/a043cfec92494b36a8c872282fc79505?v=1756825370648",
+      "estado": "disponible"
+    },
+    {
+     "nombre": "José Hernandez al 1200",
+      "precio": "$350.000",
+      "descripcion": "Alquiler - Moderno Departamento 2 ambientes en Edificio Deparc. +$15.000 expensas",
+      "imagen": "../img/propiedades/hernandez1200.png",
+      "link": "https://www.argenprop.com/departamento-en-alquiler-en-villa-bosch-2-ambientes--15715509",
+      "estado": "alquilada"
     }
   ]
 }

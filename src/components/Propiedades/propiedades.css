@@ -96,6 +96,14 @@
   margin-bottom: 1rem;
 }
 
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+/* keep original image sizing (images already formatted) */
+
 .popular__data {
   padding: 0 1rem 0 0.5rem;
 }
@@ -163,9 +171,10 @@ a.nombre-propiedad{
   right: calc(50% - 3rem);
 }
 
-.popular__card.vendida {
+.popular__card.vendida,
+.popular__card.reservada,
+.popular__card.alquilada {
   opacity: 0.6;
-  position: relative;
 }
 
 .vendida-banner {
@@ -178,8 +187,88 @@ a.nombre-propiedad{
   text-align: center;
   padding: 10px 0;
   font-size: 24px;
+  text-transform: uppercase;
   font-weight: bold;
   z-index: 10;
   transform: translate(-50%, -50%);
   border-radius: 5px;
+}
+
+/* .popular__card.reservada position is handled by .image-wrapper */
+
+.reservada-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  background-color: rgba(90, 63, 104, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+.alquilado-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+}
+
+/* Responsive tweaks: make cards visually consistent on smaller screens */
+@media (max-width: 768px) {
+  .popular__price {
+    font-size: 0.9rem;
+  }
+
+  .popular__title {
+    font-size: 0.95rem;
+  }
+
+  .popular__description {
+    font-size: 0.8rem;
+  }
+
+  .vendida-banner,
+  .reservada-banner,
+  .alquilado-banner {
+    font-size: 18px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 534px) {
+  .popular__price {
+    font-size: 0.85rem;
+  }
+
+  .popular__title {
+    font-size: 0.9rem;
+  }
+
+  .popular__description {
+    font-size: 0.75rem;
+  }
+
+  .vendida-banner,
+  .reservada-banner,
+  .alquilado-banner {
+    font-size: 16px;
+    width: 75%;
+  }
 }

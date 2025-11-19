@@ -79,6 +79,21 @@
   margin-bottom: 2rem;
 }
 
+.home__available {
+  margin-bottom: 1.5rem;
+  font-size: 14px;
+}
+
+.home__available h3 {
+  color: var(--first-color-light);
+  font-weight: lighter;
+}
+
+.home__available-number {
+  color: var(--second-color);
+  font-weight: 600;
+}
+
 .home__value {
   display: flex;
   column-gap: 2.5rem;

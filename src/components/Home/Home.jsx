@@ -6,6 +6,7 @@ import Propiedades from "../Propiedades/Propiedades";
 import "./home.css";
 
 import ScrollReveal from "scrollreveal";
+import data from "../Propiedades/data.json";
 import ImgGallery from "../ImgGallery/ImgGallery";
 
 const Home = () => {
@@ -19,9 +20,11 @@ const Home = () => {
 
   sr.reveal(`.home__title`);
   sr.reveal(`.home__description`, { delay: 200 });
+  sr.reveal(`.home__available`, { delay: 300 });
   sr.reveal(`.home__value`, { delay: 400 });
   sr.reveal(`.home__images`, { delay: 600, origin: "botton" });
   sr.reveal(`.home`);
+  const availableCount = (data.propiedades || []).filter((p) => p.estado === "disponible").length;
   return (
     <div>
       <Header />
@@ -44,6 +47,12 @@ const Home = () => {
                 <br></br>
                 Horarios de atención: Lun a Vie de 10 a 17
               </p>
+
+              <div className="home__available">
+                <h3>
+                  Propiedades a la Venta: <span className="home__available-number">{availableCount}</span>
+                </h3>
+              </div>
 
               {/* 
               <div className="home__value">
